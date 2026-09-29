@@ -1,0 +1,12 @@
+{"snapshot_id": "synthetic-validation-t0", "event_id": "back-lay", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t0", "event_id": "commission-trap", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t2", "event_id": "back-lay", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t2", "event_id": "commission-trap", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t5", "event_id": "back-lay", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t5", "event_id": "commission-trap", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t15", "event_id": "two-way", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t15", "event_id": "two-way", "market_key": "h2h", "reason": "no_cross_venue_pairs"}
+{"snapshot_id": "synthetic-validation-t15", "event_id": "back-lay", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t15", "event_id": "commission-trap", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t30", "event_id": "back-lay", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}
+{"snapshot_id": "synthetic-validation-t30", "event_id": "commission-trap", "market_key": "h2h", "reason": "incomplete_fixed_outcome_coverage"}

@@ -1,0 +1,214 @@
+{
+  "package": "Australian Paper Arbitrage Scanner",
+  "version": "1.0.0",
+  "created_date": "2026-09-29",
+  "mode": "PAPER_ONLY",
+  "tests_passed": 34,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 15195,
+      "sha256": "628dc8b445edf4dfe005336800945689b3ed79e1d2a5e6e519ab79f965f6e898"
+    },
+    {
+      "path": "aus_arb/__init__.py",
+      "bytes": 79,
+      "sha256": "ec60366693e390f3e696676f28631ea9252dcae55648edca1e28e74c5d8a6007"
+    },
+    {
+      "path": "aus_arb/__main__.py",
+      "bytes": 6475,
+      "sha256": "be9b9b031c997e547333ad21e01289e38d3afe7816008fba2e7e7332f136f514"
+    },
+    {
+      "path": "aus_arb/adapters.py",
+      "bytes": 8641,
+      "sha256": "8fed0d46fb4d7f34d7ee5c5ae4d43c281d396c9755c3def8f5f7afaf3a29116d"
+    },
+    {
+      "path": "aus_arb/core.py",
+      "bytes": 21815,
+      "sha256": "573f8eeca484cefa1b6f454e7f4e8f774630126bff39fc8da42e332288a76fbb"
+    },
+    {
+      "path": "aus_arb/ledger.py",
+      "bytes": 6250,
+      "sha256": "a1191dc73aec630699ddf9ac409620bda33d82de0e18a70ef1e8c3a77714174c"
+    },
+    {
+      "path": "aus_arb/report.py",
+      "bytes": 7375,
+      "sha256": "5a9c5c56302cfca2507eb79387b2c15e96139089370c735c0890ae30c09d5f8e"
+    },
+    {
+      "path": "config/default.json",
+      "bytes": 4108,
+      "sha256": "16287bfdb058a8fa7b68c00cd2ecb9011e95d6c12daf7d1018a3a41ea1695cc9"
+    },
+    {
+      "path": "config/demo.json",
+      "bytes": 3261,
+      "sha256": "e2c59943c8e07dc4dd710cbebf8e1822580c634d5ed8fde2e0b170947baf6f16"
+    },
+    {
+      "path": "data/historical_afl_normalised.json",
+      "bytes": 140896,
+      "sha256": "53528ac855da3b4ad3f287fab3acbedf33d21a694a802cb475e338786486d87c"
+    },
+    {
+      "path": "data/historical_afl_raw.json",
+      "bytes": 15000,
+      "sha256": "efd5cecde668825682e0918f697ba0ff49cf862f5f1b69f9a16d119aa1113b2a"
+    },
+    {
+      "path": "data/public_nrl_2026-09-29.json",
+      "bytes": 4024,
+      "sha256": "d6521c1cf1df0920fc71463db40e41898cbd695b0cf4b4c6a09a9b380bef1d23"
+    },
+    {
+      "path": "data/synthetic_t00.json",
+      "bytes": 8722,
+      "sha256": "060b11691d697c6c6b2086f18d6b7972a52656d03f893659b3ccd189bd43bd0b"
+    },
+    {
+      "path": "data/synthetic_t02.json",
+      "bytes": 8722,
+      "sha256": "ce7f3fdd1ebd9fb193847bcec5d1e8437579e18fd36c18006fc68a92c401aff7"
+    },
+    {
+      "path": "data/synthetic_t05.json",
+      "bytes": 8721,
+      "sha256": "0ac652d0a1e1fb06f15bd0836ff17f35ee7b2da32625b0a8f18c9b27e4158b84"
+    },
+    {
+      "path": "data/synthetic_t15.json",
+      "bytes": 7993,
+      "sha256": "cceb266eaf8471a4f405f0b7767766a1bd8d508be22a239ede012b29d0282def"
+    },
+    {
+      "path": "data/synthetic_t30.json",
+      "bytes": 8721,
+      "sha256": "64e524f67f090fe3edd619ab85429bda4ee8e3aa9a39b8b97c1e39c64fcd8ee2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8838,
+      "sha256": "00e1f88d2dc852da3ca6422bda827199c8a19d0fee416edbf94f27999e06512b"
+    },
+    {
+      "path": "results/historical_afl/audit.sqlite3",
+      "bytes": 2588672,
+      "sha256": "cd6a1d088d8d5a3e602b596aa3610a7fed0f5d78b92b4fd723fbf4d5d0be06f7"
+    },
+    {
+      "path": "results/historical_afl/candidates.csv",
+      "bytes": 178246,
+      "sha256": "9ae9dcf37e6b71ad77edece0a76cc1e9c7541c8ce202f020171ab0f7f90d8058"
+    },
+    {
+      "path": "results/historical_afl/candidates.jsonl",
+      "bytes": 1704858,
+      "sha256": "488306e065a9fe7504f57ed8f99c1f9513314e33938ddf544d6442c6a6d2fc88"
+    },
+    {
+      "path": "results/historical_afl/index.html",
+      "bytes": 261962,
+      "sha256": "08d9bc576d7b5adabf3438e0211b5715155143eac2590408d28e4d4d6b4ec80b"
+    },
+    {
+      "path": "results/historical_afl/issues.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/historical_afl/observations.jsonl",
+      "bytes": 136211,
+      "sha256": "7eb6f427f5bfc0905c46408df33b99165b801a5662318c98bbabfd54ad4330f1"
+    },
+    {
+      "path": "results/historical_afl/summary.json",
+      "bytes": 25149,
+      "sha256": "7b42fed9eb33289649b4b465cbb80523c6a77e803d0c112bba6bef2a55537a3b"
+    },
+    {
+      "path": "results/public_nrl/audit.sqlite3",
+      "bytes": 69632,
+      "sha256": "03da564e2f0665f73d26843346220418517d10ec94f807fc4e1e767bbbe3618d"
+    },
+    {
+      "path": "results/public_nrl/candidates.csv",
+      "bytes": 1589,
+      "sha256": "82510801061cd3aa975bb89785885c2679c19ffb701a1bad6bef3303b6f25656"
+    },
+    {
+      "path": "results/public_nrl/candidates.jsonl",
+      "bytes": 12267,
+      "sha256": "86a885e90d1caa62fe99d8405a4e55a3889a7f64d310d8e302f0bb1f9af6e3d3"
+    },
+    {
+      "path": "results/public_nrl/index.html",
+      "bytes": 6335,
+      "sha256": "e43545043108fae5fd1beea044a1928e670d3adb44ec792ca3a4afc669c3eebe"
+    },
+    {
+      "path": "results/public_nrl/issues.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/public_nrl/observations.jsonl",
+      "bytes": 3098,
+      "sha256": "90ac467295ed32d987d7b07f61363b21d4b497b807dc41b099a1877d008a6d3c"
+    },
+    {
+      "path": "results/public_nrl/summary.json",
+      "bytes": 7993,
+      "sha256": "cc56f608d5c53600faf3d75ad653ce5227a20bbee8d73178acba8bf4e2cc26d7"
+    },
+    {
+      "path": "results/synthetic_validation/audit.sqlite3",
+      "bytes": 253952,
+      "sha256": "048c1551f32cc87e81ad92cddceaf1086a5516382f3a3c5865609e84b17ae39f"
+    },
+    {
+      "path": "results/synthetic_validation/candidates.csv",
+      "bytes": 4728,
+      "sha256": "ae8d577ab819518eedc379544852a194bd575cde6138ba37e4738a1dd8492ab8"
+    },
+    {
+      "path": "results/synthetic_validation/candidates.jsonl",
+      "bytes": 109493,
+      "sha256": "92d4bfa064ab9e460307f2bdde732067a75c8eab205c3b478566790cac0f6f86"
+    },
+    {
+      "path": "results/synthetic_validation/index.html",
+      "bytes": 14443,
+      "sha256": "2f9600bf26c66034792a6c17609fa72701aa27c9f43e8ce7fa819c727d22994c"
+    },
+    {
+      "path": "results/synthetic_validation/issues.jsonl",
+      "bytes": 1646,
+      "sha256": "06512e69dda572967afa58a3cab5fa2a6f10389af1aa7c8db392718b7668f47e"
+    },
+    {
+      "path": "results/synthetic_validation/observations.jsonl",
+      "bytes": 33999,
+      "sha256": "d602066fb06077f212cc434573eeae4be904ae718386d0b25260cb326627a3ea"
+    },
+    {
+      "path": "results/synthetic_validation/summary.json",
+      "bytes": 10533,
+      "sha256": "95ac848f3ab6257f57699da4ca32998443fb7e520211880e867a8c9002e47a39"
+    },
+    {
+      "path": "results/validation_test_log.txt",
+      "bytes": 4175,
+      "sha256": "45f683fe4c8545b2694f800508dce47bd068031832c8fed74101d39ae1fbcc9e"
+    },
+    {
+      "path": "tests/test_scanner.py",
+      "bytes": 12624,
+      "sha256": "3fcd5e07199fc211f372932aea1545793e4bbe171a67ef3d81e0f86e85c700f8"
+    }
+  ]
+}

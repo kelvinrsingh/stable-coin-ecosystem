@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Australian Paper Arbitrage Scanner — Research Results</title>
+<style>
+:root{--ink:#173246;--muted:#546b7a;--line:#d5e1e7;--paper:#f0f5f7;--green:#06796e}
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,sans-serif;background:var(--paper);color:var(--ink)}
+header{background:#123347;color:#fff;padding:55px max(24px,calc((100vw - 1100px)/2));border-bottom:6px solid #39b2a3}
+.eyebrow{color:#9ce1d5;text-transform:uppercase;font-size:13px;letter-spacing:.13em;font-weight:700}h1{font-size:clamp(30px,5vw,49px);line-height:1.1;margin:17px 0;max-width:850px}
+header p{max-width:780px;color:#d1e3eb}main{max-width:1148px;margin:auto;padding:24px}section{background:#fff;padding:28px;border:1px solid var(--line);border-radius:12px;margin:22px 0}
+h2{font-size:24px;margin:0 0 15px}h3{font-size:18px;margin:8px 0}a{color:#075c82;text-underline-offset:3px}a.button{display:inline-block;background:var(--green);color:#fff;padding:10px 17px;border-radius:6px;text-decoration:none;font-weight:650}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:20px;background:#edf5f6;border-radius:8px}.big{display:block;font-size:37px;font-weight:750;line-height:1.2}.muted,small{color:var(--muted)}.note{border-left:4px solid #d7a442;background:#fff7e7;padding:17px 20px}.positive{color:#006b61}.negative{color:#a33d25}
+.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;vertical-align:top;padding:15px 12px;border-bottom:1px solid var(--line)}th{background:#edf4f7}td small{display:block;margin-top:4px}code{background:#edf3f6;padding:2px 5px;border-radius:3px}pre{white-space:pre-wrap;background:#102e40;color:#d8f3ef;padding:20px;border-radius:8px;font-size:14px}ul{padding-left:22px}li{margin:9px 0}.pill{font-size:12px;border:1px solid #b9d1da;padding:4px 8px;border-radius:99px;display:inline-block;font-weight:650}footer{padding:0 8px 30px;color:var(--muted);font-size:13px}
+@media(max-width:650px){main{padding:12px}section{padding:19px}.cards{grid-template-columns:1fr}.big{font-size:30px}header{padding:35px 22px}th,td{padding:12px 9px}}
+</style></head>
+<body><header><div class="eyebrow">Research build · 29 September 2026 · AUD</div><h1>Australian paper arbitrage scanner</h1><p>A working, local research tool for testing price differences after commission, stake capacity, delays and settlement checks.</p><span class="pill">Paper only · No orders or account access</span></header>
+<main>
+<section><h2>Built, tested and run</h2><div class="cards"><div class="card"><span class="big">34</span>Automated checks passed</div><div class="card"><span class="big">266</span>Real-data comparisons assessed<small>2 public NRL + 264 historical AFL</small></div><div class="card"><span class="big">0</span>Positive real-data calculations<small>Within these limited samples and configured costs</small></div></div><p>No bets were placed and no realised profit was measured. The scanner and completed results are included. Continuous collection has not been started.</p><p class="note">This does not establish the frequency or profitability of Australian arbitrage. The public observations lack precise quote timestamps, accepted stake limits and reconciled settlement rules. The historical sample is from 2022.</p></section>
+
+<section><h2>Open the completed scans</h2><div class="scroll"><table><thead><tr><th>Dataset</th><th>Coverage</th><th>Finding</th><th>Report</th></tr></thead><tbody>
+<tr><td><strong>Public NRL observations</strong><small>29 September 2026; two public pages</small></td><td>4 prices<br>2 cross-book comparisons</td><td>Both negative. Best prices 1.45 / 2.80 imply a reciprocal sum of 1.046798, above the arbitrage threshold.</td><td><a class="button" href="results/public_nrl/index.html">Open NRL scan</a></td></tr>
+<tr><td><strong>Official historical AFL sample</strong><small>Provider snapshot: 24 April 2022</small></td><td>11 events<br>140 prices<br>264 comparisons</td><td>All assessed comparisons negative after configured costs. Exchange back quotes retained but outside this version's portfolio search.</td><td><a class="button" href="results/historical_afl/index.html">Open AFL scan</a></td></tr>
+<tr><td><strong>Synthetic validation</strong><small>Invented prices, capacities and matching rules</small></td><td>5 snapshots<br>44 prices<br>19 comparisons</td><td>9 synthetic candidates, 7 negative comparisons and 3 blocked positive calculations. Overlapping examples, not independent trades or returns.</td><td><a class="button" href="results/synthetic_validation/index.html">Open test scenarios</a></td></tr>
+</tbody></table></div><p>Every report includes the rejected comparisons, source labels, evidence failures, delay results and downloadable audit data.</p></section>
+
+<section><span class="pill">Invented example — validation only</span><h2 style="margin-top:12px">Why a displayed edge can disappear</h2><p>The synthetic fixture starts with opposing prices of 2.10 and 2.05. With approximately AUD 1,000 of capital and AUD 1 of allocated cost, its worst normal-settlement result is AUD 36.35. The replay assumes the first leg has filled and tests the remaining hedge at the original stake.</p><div class="scroll"><table><thead><tr><th>Delay</th><th>Observation in the fixture</th><th>Model result</th></tr></thead><tbody>
+<tr><td>2 seconds</td><td>Both prices unchanged</td><td class="positive">+AUD 36.35 under the fixture assumptions</td></tr>
+<tr><td>5 seconds</td><td>Second price falls from 2.05 to 1.80</td><td class="negative">−AUD 90.15 worst outcome</td></tr>
+<tr><td>15 seconds</td><td>Second quote disappears</td><td class="negative">Hedge unavailable; first-leg exposure remains</td></tr>
+<tr><td>30 seconds</td><td>Second price remains 1.80; available stake falls to AUD 100</td><td>Blocked: original hedge stake exceeds capacity</td></tr>
+</tbody></table></div><p class="muted">These are constructed tests, not observed market behaviour or successful betting examples. Actual fills are never inferred from displayed prices.</p></section>
+
+<section><h2>What the scanner checks</h2><ul>
+<li><strong>Fixed-odds arbitrage:</strong> exhaustive two- or three-outcome markets, equal-payout sizing, cent rounding and costs.</li>
+<li><strong>Back/lay arbitrage:</strong> exchange commission, lay liability, hedge capacity and capital at each venue.</li>
+<li><strong>Evidence:</strong> source timestamps, quote age, outcome completeness, licensing review and settlement compatibility.</li>
+<li><strong>Execution exposure:</strong> observed 2/5/15/30-second replay when data exists, plus assumed partial fills, adverse price moves and one-sided voids.</li>
+<li><strong>Audit trail:</strong> raw snapshots, rejected comparisons, missing evidence, first-ingestion times and the exact configuration for each run.</li>
+</ul><p>Defaults: AUD 1,000 capital per comparison, AUD 1,000 assumed funds per venue and AUD 1 illustrative allocated cost. These are adjustable assumptions. Comparisons share prices and capital; their profits must not be added.</p><p>A positive calculation with missing limits or rules stays blocked. The term <code>paper_candidate</code> means the configured assumptions pass; it does not mean a trade was accepted or is guaranteed.</p></section>
+
+<section><h2>Use the package</h2><p>Open <a href="README.md">README.md</a> for the complete setup, formulas, evidence schema, scope and sources. Python 3.10+ is needed only to run new calculations; there are no third-party Python dependencies.</p><pre>python3 -m unittest discover -s tests -v
+python3 -m aus_arb run data/public_nrl_2026-09-29.json --out results/my_scan</pre><p>To collect a new AU snapshot, obtain your own The Odds API key, set <code>ODDS_API_KEY</code> locally, then run:</p><pre>python3 -m aus_arb collect --sport rugbyleague_nrl --out results/my_collection</pre><p>This makes one read-only request. Repeated collection is opt-in, consumes provider quota and requires the process to stay running. Published odds alone do not supply all the account and settlement evidence needed for a qualifying paper candidate.</p><p><a href="results/validation_test_log.txt">Read the test log</a> · <a href="config/default.json">Inspect default assumptions</a> · <a href="data/historical_afl_raw.json">Inspect the original historical sample</a></p></section>
+
+<footer>Sources: The Odds API official documentation and historical sample; ACMA operator register; Betfair Australia charges; public Sportsbet and Ladbrokes pages. Source URLs and limitations are recorded in README.md and the datasets. This tool is not affiliated with those organisations or Imperial Wealth.</footer>
+</main></body></html>

@@ -1,0 +1,39 @@
+test_adapter_does_not_turn_public_bet_limit_into_accepted_stake (test_scanner.ScannerTests.test_adapter_does_not_turn_public_bet_limit_into_accepted_stake) ... ok
+test_allocated_fees_can_remove_edge (test_scanner.ScannerTests.test_allocated_fees_can_remove_edge) ... ok
+test_api_http_error_does_not_expose_key (test_scanner.ScannerTests.test_api_http_error_does_not_expose_key) ... ok
+test_back_lay_liability_and_commission (test_scanner.ScannerTests.test_back_lay_liability_and_commission) ... ok
+test_combination_limit_reports_incomplete_coverage (test_scanner.ScannerTests.test_combination_limit_reports_incomplete_coverage) ... ok
+test_commission_eliminates_apparent_edge (test_scanner.ScannerTests.test_commission_eliminates_apparent_edge) ... ok
+test_delay_never_looks_ahead_or_interpolates (test_scanner.ScannerTests.test_delay_never_looks_ahead_or_interpolates) ... ok
+test_delayed_prices_and_missing_hedge (test_scanner.ScannerTests.test_delayed_prices_and_missing_hedge) ... ok
+test_duplicate_selection_quote_is_not_silently_chosen (test_scanner.ScannerTests.test_duplicate_selection_quote_is_not_silently_chosen) ... ok
+test_empty_rule_field_is_unverified (test_scanner.ScannerTests.test_empty_rule_field_is_unverified) ... ok
+test_end_to_end_exports_all_decisions (test_scanner.ScannerTests.test_end_to_end_exports_all_decisions) ... ok
+test_exchange_liquidity_is_lay_stake_not_liability (test_scanner.ScannerTests.test_exchange_liquidity_is_lay_stake_not_liability) ... ok
+test_historical_data_cannot_be_current_opportunity (test_scanner.ScannerTests.test_historical_data_cannot_be_current_opportunity) ... ok
+test_historical_import_requires_original_timestamp (test_scanner.ScannerTests.test_historical_import_requires_original_timestamp) ... ok
+test_invalid_future_quote_blocks_replay (test_scanner.ScannerTests.test_invalid_future_quote_blocks_replay) ... ok
+test_invalid_odds_are_audited (test_scanner.ScannerTests.test_invalid_odds_are_audited) ... ok
+test_ledger_first_seen_survives_repeat_ingestion (test_scanner.ScannerTests.test_ledger_first_seen_survives_repeat_ingestion) ... ok
+test_minimum_stakes_block_tiny_capacity (test_scanner.ScannerTests.test_minimum_stakes_block_tiny_capacity) ... ok
+test_missing_api_key_makes_no_request (test_scanner.ScannerTests.test_missing_api_key_makes_no_request) ... ok
+test_missing_limits_never_assumed_executable (test_scanner.ScannerTests.test_missing_limits_never_assumed_executable) ... ok
+test_missing_third_outcome_is_audited (test_scanner.ScannerTests.test_missing_third_outcome_is_audited) ... ok
+test_nonfinite_config_is_rejected (test_scanner.ScannerTests.test_nonfinite_config_is_rejected) ... ok
+test_partial_fill_and_unilateral_void_show_loss (test_scanner.ScannerTests.test_partial_fill_and_unilateral_void_show_loss) ... ok
+test_rejected_comparisons_are_retained (test_scanner.ScannerTests.test_rejected_comparisons_are_retained) ... ok
+test_settlement_mismatch_blocks (test_scanner.ScannerTests.test_settlement_mismatch_blocks) ... ok
+test_stake_capacity_is_binding (test_scanner.ScannerTests.test_stake_capacity_is_binding) ... ok
+test_stale_future_and_unknown_timestamps (test_scanner.ScannerTests.test_stale_future_and_unknown_timestamps) ... ok
+test_three_way_all_outcomes_covered (test_scanner.ScannerTests.test_three_way_all_outcomes_covered) ... ok
+test_two_way_equal_payout_math (test_scanner.ScannerTests.test_two_way_equal_payout_math) ... ok
+test_unexpected_outcome_does_not_create_false_two_way_arb (test_scanner.ScannerTests.test_unexpected_outcome_does_not_create_false_two_way_arb) ... ok
+test_unknown_outcome_coverage_blocks (test_scanner.ScannerTests.test_unknown_outcome_coverage_blocks) ... ok
+test_unreviewed_operator_blocks_real_data (test_scanner.ScannerTests.test_unreviewed_operator_blocks_real_data) ... ok
+test_unsupported_markets_are_retained_as_observations (test_scanner.ScannerTests.test_unsupported_markets_are_retained_as_observations) ... ok
+test_venue_balance_aggregates_same_book_legs (test_scanner.ScannerTests.test_venue_balance_aggregates_same_book_legs) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.046s
+
+OK

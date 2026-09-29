@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "public-nrl-20260929-0631-primary-pages",
+  "source_mode": "public_web_observation",
+  "captured_at": "2026-09-29T06:31:00Z",
+  "source": "Public Sportsbet event page and Ladbrokes NRL tipping page, read 29 September 2026",
+  "notes": [
+    "Capture time is research observation time, not quote publication time.",
+    "Sportsbet displayed a session clock; it is not treated as the odds timestamp.",
+    "Ladbrokes page dates its odds to 29 September 2026 without a precise time.",
+    "Different page types and settlement terms have not been reconciled. This is an illustrative comparison, not executable odds."
+  ],
+  "events": [
+    {
+      "event_id": "nrl-grand-final-2026-public-pages",
+      "event_name": "2026 NRL Grand Final: Sydney Roosters / Newcastle Knights",
+      "sport": "rugbyleague_nrl",
+      "start_time": null,
+      "markets": [
+        {
+          "market_key": "h2h",
+          "expected_outcomes": [
+            "Sydney Roosters",
+            "Newcastle Knights"
+          ],
+          "outcomes_verified": false,
+          "outcome_evidence": null,
+          "quotes": [
+            {
+              "bookmaker": "sportsbet",
+              "outcome": "Sydney Roosters",
+              "side": "back",
+              "odds": 1.45,
+              "source_updated_at": null,
+              "source_timestamp_kind": "unknown",
+              "source_url": "https://www.sportsbet.com.au/betting/rugby-league/nrl/nrl-grand-final-winner-2026-9699133",
+              "rules_id": null,
+              "max_stake": null,
+              "min_stake": null,
+              "limit_basis": null,
+              "limit_source": null,
+              "limit_updated_at": null,
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "fixed odds quote"
+            },
+            {
+              "bookmaker": "sportsbet",
+              "outcome": "Newcastle Knights",
+              "side": "back",
+              "odds": 2.8,
+              "source_updated_at": null,
+              "source_timestamp_kind": "unknown",
+              "source_url": "https://www.sportsbet.com.au/betting/rugby-league/nrl/nrl-grand-final-winner-2026-9699133",
+              "rules_id": null,
+              "max_stake": null,
+              "min_stake": null,
+              "limit_basis": null,
+              "limit_source": null,
+              "limit_updated_at": null,
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "fixed odds quote"
+            },
+            {
+              "bookmaker": "ladbrokes",
+              "outcome": "Sydney Roosters",
+              "side": "back",
+              "odds": 1.44,
+              "source_updated_at": null,
+              "source_timestamp_kind": "unknown",
+              "source_url": "https://www.ladbrokes.com.au/blog/betting-info/nrl/tipping/",
+              "rules_id": null,
+              "max_stake": null,
+              "min_stake": null,
+              "limit_basis": null,
+              "limit_source": null,
+              "limit_updated_at": null,
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "fixed odds quote"
+            },
+            {
+              "bookmaker": "ladbrokes",
+              "outcome": "Newcastle Knights",
+              "side": "back",
+              "odds": 2.8,
+              "source_updated_at": null,
+              "source_timestamp_kind": "unknown",
+              "source_url": "https://www.ladbrokes.com.au/blog/betting-info/nrl/tipping/",
+              "rules_id": null,
+              "max_stake": null,
+              "min_stake": null,
+              "limit_basis": null,
+              "limit_source": null,
+              "limit_updated_at": null,
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "fixed odds quote"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
