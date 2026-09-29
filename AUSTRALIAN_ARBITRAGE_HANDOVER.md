@@ -29,7 +29,9 @@ Measure conditional Australian bookmaker arbitrage after commission, stake limit
 
 ## Next research phase
 
-Reproduce and review the calculations and evidence gates, then propose a costed 30-day paper-only collection study. Confirm sports, feed permissions, polling frequency and data budget before starting sustained collection. Keep a user-supplied API key only in the local `ODDS_API_KEY` environment variable.
+First establish the Australian operator/site universe and reconcile coverage. The reviewed sequence and acceptance criteria are in [the operator universe plan](research/australian-arbitrage/research/OPERATOR_UNIVERSE_PLAN.md); the expanded site list is in [the operator inventory](research/australian-arbitrage/research/OPERATOR_INVENTORY.md). Registration, operational status and scanner coverage are separate checks.
+
+After that, map obtainable prices, review calculations and evidence gates, and propose a bounded pilot before a costed 30-day paper-only collection study. Confirm sports, feed permissions, polling frequency and data budget before starting sustained collection. Keep a user-supplied API key only in the local `ODDS_API_KEY` environment variable.
 
 Preserve all source labels: current provider, historical provider, public-web observation and synthetic fixture. Do not infer accepted stakes or fills from published prices. Unknown settlement rules, quote times and account capacities remain blocking conditions. Deduplicate overlapping comparisons before assessing opportunity frequency; never add their hypothetical P&L.
 

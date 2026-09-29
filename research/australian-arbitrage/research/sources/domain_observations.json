@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://betshop.com.au",
+    "checked_at_utc": "2026-09-29T10:13:26.350176+00:00",
+    "http_status": 200,
+    "final_url": "https://www.123bet.com.au:443/"
+  },
+  {
+    "url": "https://favbet.com.au",
+    "checked_at_utc": "2026-09-29T10:13:26.350450+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'favbet.com.au'. (_ssl.c:1129)>"
+  },
+  {
+    "url": "https://hueybet.com.au",
+    "checked_at_utc": "2026-09-29T10:13:26.350553+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  }
+]
