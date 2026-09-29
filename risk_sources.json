@@ -1,0 +1,106 @@
+[
+  {
+    "id": "R01",
+    "url": "https://www.legislation.gov.au/C2026A00038/asmade/2026-04-08/text/original/epub/OEBPS/document_1/document_1.html",
+    "title": "Corporations Amendment (Digital Assets Framework) Act 2026",
+    "period": "Assent 2026-04-08; commencement 2027-04-08",
+    "claim": "Act enacted but not yet commenced at cutoff",
+    "status": "verified-primary"
+  },
+  {
+    "id": "R02",
+    "url": "https://www.asic.gov.au/regulatory-resources/digital-transformation/digital-assets-financial-products-and-services",
+    "title": "ASIC INFO225",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Product rights and arrangements determine financial-product analysis; reform-status prose partly stale",
+    "status": "verified-primary-with-stale-reform-status"
+  },
+  {
+    "id": "R03",
+    "url": "https://treasury.gov.au/policy-topics/banking-and-finance/payments-licensing-reforms",
+    "title": "Treasury payments licensing reforms",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Tranche 1 payments package described as draft legislation",
+    "status": "verified-primary-proposal"
+  },
+  {
+    "id": "R04",
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/pdf/PLAW-119publ27.pdf",
+    "title": "GENIUS Act Public Law 119-27",
+    "period": "Approved 2025-07-18",
+    "claim": "Section20 general effective-date formula; Section3 separate delayed offer/sale restriction",
+    "status": "verified-primary"
+  },
+  {
+    "id": "R05",
+    "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-69.html",
+    "title": "OCC GENIUS next steps",
+    "period": "2026-08-19",
+    "claim": "OCC anticipated November final rule; all-agency status not established",
+    "status": "verified-primary-limited-scope"
+  },
+  {
+    "id": "R06",
+    "url": "https://www.circle.com/legal/usdc-terms",
+    "title": "Circle USDC terms",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Direct redemption conditional on Circle Mint eligibility; no reserve-interest entitlement; no deposit insurance",
+    "status": "verified-issuer-terms"
+  },
+  {
+    "id": "R07",
+    "url": "https://tether.to/en/legal/",
+    "title": "Tether legal terms",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Direct redemption requires verified customer and subject to conditions/fees",
+    "status": "verified-issuer-terms"
+  },
+  {
+    "id": "R08",
+    "url": "https://docs.ethena.fi/resources/faq",
+    "title": "Ethena FAQ",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Hedged synthetic dollar mechanics and possible sustained negative funding",
+    "status": "verified-issuer-description-not-independent-safety-assurance"
+  },
+  {
+    "id": "R09",
+    "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/crypto-asset-investments/keeping-crypto-records?anchor=Cryptoassettransactionrecords",
+    "title": "ATO Keeping crypto records",
+    "period": "Updated 2024-06-16; retrieved 2026-09-29",
+    "claim": "Record transactions and AUD values; no personal tax conclusion",
+    "status": "primary-search-excerpt-open-failed"
+  },
+  {
+    "id": "R10",
+    "url": "https://www.visaonchainanalytics.com/transactions",
+    "title": "Visa Onchain Analytics methodology",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Adjusted volume filters and probabilistic labels; includes categories beyond payments",
+    "status": "verified-primary"
+  },
+  {
+    "id": "R11",
+    "url": "https://dune.com/data",
+    "title": "Dune data catalog",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Stablecoin transfer and holder datasets available; query correctness not independently tested",
+    "status": "verified-provider-description"
+  },
+  {
+    "id": "R12",
+    "url": "https://docs.llama.fi/analysts/data-definitions",
+    "title": "DefiLlama data definitions",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Separate TVL, flows, fees and revenue definitions",
+    "status": "verified-primary"
+  },
+  {
+    "id": "R13",
+    "url": "https://docs.llama.fi/list-your-project/other-dashboards",
+    "title": "DefiLlama dimensions adapters",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Supply-side revenue distinct from protocol/holder revenue",
+    "status": "primary-search-excerpt"
+  }
+]

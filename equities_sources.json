@@ -1,0 +1,114 @@
+[
+  {
+    "id": "EQ01",
+    "url": "https://www.circle.com/pressroom/circle-reports-second-quarter-2026-results",
+    "title": "Circle Q2 2026 earnings",
+    "period": "Q2 2026",
+    "claim": "Reserve income, distribution costs and rate-versus-supply growth",
+    "status": "verified_company_report"
+  },
+  {
+    "id": "EQ02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000088/coin-20260630.htm",
+    "title": "Coinbase Q2 2026 10-Q",
+    "period": "Q2 2026",
+    "claim": "Stablecoin revenue and USDC rewards; comparison reclassification; rate sensitivity",
+    "status": "verified_sec_filing"
+  },
+  {
+    "id": "EQ03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm",
+    "title": "Visa fiscal Q3 earnings",
+    "period": "Fiscal Q3 2026 / June quarter",
+    "claim": "Revenue, EPS and capital returns",
+    "status": "verified_sec_filing"
+  },
+  {
+    "id": "EQ04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
+    "title": "Mastercard Q2 earnings",
+    "period": "Q2 2026",
+    "claim": "Revenue, EPS and services growth",
+    "status": "verified_sec_filing"
+  },
+  {
+    "id": "EQ05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm",
+    "title": "PayPal Q2 earnings",
+    "period": "Q2 2026",
+    "claim": "Revenue, EPS, TPV, FCF and repurchases",
+    "status": "verified_sec_filing"
+  },
+  {
+    "id": "EQ06",
+    "url": "https://investor.coinbase.com/news/news-details/2026/Coinbase-Q2-Earnings-Everything-Exchange-Drives-3rd-Consecutive-Quarter-of-Record-Crypto-Trading-Volume-Market-Share-Revenue-Diversification-and-Resilience/default.aspx",
+    "title": "Coinbase Q2 earnings release",
+    "period": "Q2 2026",
+    "claim": "Management-reported $20bn average product USDC and economic capture",
+    "status": "verified_company_report_not_independent_market_validation"
+  },
+  {
+    "id": "EQ07",
+    "url": "https://investor.visa.com/news/news-details/2026/Visa-Accelerates-Stablecoin-Momentum-Adding-Five-Blockchains-for-Settlement/default.aspx",
+    "title": "Visa stablecoin settlement expansion",
+    "period": "April 29 2026",
+    "claim": "Nine chains; $7bn annualised settlement run rate",
+    "status": "verified_company_report"
+  },
+  {
+    "id": "EQ08",
+    "url": "https://investor.mastercard.com/investor-news/investor-news-details/2026/Mastercard-completes-acquisition-of-BVNK-to-advance-global-stablecoin-capabilities/default.aspx",
+    "title": "Mastercard BVNK completion",
+    "period": "August 3 2026",
+    "claim": "Acquisition completed",
+    "status": "verified_company_report"
+  },
+  {
+    "id": "EQ09",
+    "url": "https://investor.mastercard.com/investor-news/investor-news-details/2026/Mastercard-to-Acquire-BVNK-to-Connect-On-Chain-Payments-and-Fiat-Rails/",
+    "title": "Mastercard BVNK agreement",
+    "period": "March 17 2026",
+    "claim": "Up to $1.8bn consideration including $300m contingent",
+    "status": "verified_company_report"
+  },
+  {
+    "id": "EQ10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm",
+    "title": "PayPal 10-Q",
+    "period": "Q2 2026",
+    "claim": "Third-party PYUSD issuer arrangement and risk disclosures",
+    "status": "verified_sec_filing"
+  },
+  {
+    "id": "EQ11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+    "title": "Circle 10-Q",
+    "period": "Q2 2026",
+    "claim": "Interest sensitivity, diluted shares, RSUs and ARC token-sale cash proceeds",
+    "status": "verified_sec_filing"
+  },
+  {
+    "id": "EQ12",
+    "url": "https://assets.ctfassets.net/vyse88cgwfbl/2kYf7r64h3tzwiu6F0CbUB/2997abd2f11ecea74a21528048b50707/Opinion___Report_-_Tether_International_Financial_Figure_30-06-2026.pdf",
+    "title": "Tether BDO financial figures and reserves report",
+    "period": "June 30 2026",
+    "claim": "Assets, liabilities, equity, financial result and scope limitations",
+    "status": "verified_opened_attestation"
+  },
+  {
+    "id": "EQ13",
+    "url": "https://tether.io/news/tether-posts-strong-q2-performance-generates-1-5b-net-operating-profit-maintains-4-11b-reserve-buffer-and-expands-gold-holdings-to-more-than-146-tons/",
+    "title": "Tether Q2 release",
+    "period": "Q2 2026",
+    "claim": "Net operating profit is different from net financial result",
+    "status": "verified_company_report"
+  },
+  {
+    "id": "EQ14",
+    "url": "https://tether.io/news/tether-completes-the-largest-inaugural-financial-audit-in-history/",
+    "title": "Tether KPMG audit announcement",
+    "period": "FY2025 audit announced August 13 2026",
+    "claim": "Company reports KPMG audit; signed report not acquired",
+    "status": "issuer_claim_pending_independent_document_verification"
+  }
+]

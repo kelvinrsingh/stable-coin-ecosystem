@@ -1,0 +1,16 @@
+chain,provider_total_usd,retrieved_utc,source,status
+Ethereum,146904090082.3471,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Tron,94514705940.21088,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Solana,16236018705.709269,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+BSC,13845455269.256363,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Hyperliquid L1,7552127384.65667,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Base,5161055722.007199,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Arbitrum,3827734552.99843,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Polygon,2972164928.7769,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+X Layer,1600161589.6374652,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Avalanche,1467077947.2383537,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Plasma,1379843412.8406222,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+XRPL,1213121608.0362494,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Aptos,1157175236.737028,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Robinhood Chain,1036936767.5251473,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled
+Stellar,955093216.98413,2026-09-29T09:01:18.096339+00:00,https://stablecoins.llama.fi/stablecoinchains,provider_snapshot;no_market_share_until_universe_reconciled

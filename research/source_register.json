@@ -1,0 +1,582 @@
+[
+  {
+    "id": "EQ01",
+    "url": "https://www.circle.com/pressroom/circle-reports-second-quarter-2026-results",
+    "title": "Circle Q2 2026 earnings",
+    "period": "Q2 2026",
+    "claim": "Reserve income, distribution costs and rate-versus-supply growth",
+    "status": "verified_company_report",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000088/coin-20260630.htm",
+    "title": "Coinbase Q2 2026 10-Q",
+    "period": "Q2 2026",
+    "claim": "Stablecoin revenue and USDC rewards; comparison reclassification; rate sensitivity",
+    "status": "verified_sec_filing",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm",
+    "title": "Visa fiscal Q3 earnings",
+    "period": "Fiscal Q3 2026 / June quarter",
+    "claim": "Revenue, EPS and capital returns",
+    "status": "verified_sec_filing",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
+    "title": "Mastercard Q2 earnings",
+    "period": "Q2 2026",
+    "claim": "Revenue, EPS and services growth",
+    "status": "verified_sec_filing",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm",
+    "title": "PayPal Q2 earnings",
+    "period": "Q2 2026",
+    "claim": "Revenue, EPS, TPV, FCF and repurchases",
+    "status": "verified_sec_filing",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ06",
+    "url": "https://investor.coinbase.com/news/news-details/2026/Coinbase-Q2-Earnings-Everything-Exchange-Drives-3rd-Consecutive-Quarter-of-Record-Crypto-Trading-Volume-Market-Share-Revenue-Diversification-and-Resilience/default.aspx",
+    "title": "Coinbase Q2 earnings release",
+    "period": "Q2 2026",
+    "claim": "Management-reported $20bn average product USDC and economic capture",
+    "status": "verified_company_report_not_independent_market_validation",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ07",
+    "url": "https://investor.visa.com/news/news-details/2026/Visa-Accelerates-Stablecoin-Momentum-Adding-Five-Blockchains-for-Settlement/default.aspx",
+    "title": "Visa stablecoin settlement expansion",
+    "period": "April 29 2026",
+    "claim": "Nine chains; $7bn annualised settlement run rate",
+    "status": "verified_company_report",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ08",
+    "url": "https://investor.mastercard.com/investor-news/investor-news-details/2026/Mastercard-completes-acquisition-of-BVNK-to-advance-global-stablecoin-capabilities/default.aspx",
+    "title": "Mastercard BVNK completion",
+    "period": "August 3 2026",
+    "claim": "Acquisition completed",
+    "status": "verified_company_report",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ09",
+    "url": "https://investor.mastercard.com/investor-news/investor-news-details/2026/Mastercard-to-Acquire-BVNK-to-Connect-On-Chain-Payments-and-Fiat-Rails/",
+    "title": "Mastercard BVNK agreement",
+    "period": "March 17 2026",
+    "claim": "Up to $1.8bn consideration including $300m contingent",
+    "status": "verified_company_report",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm",
+    "title": "PayPal 10-Q",
+    "period": "Q2 2026",
+    "claim": "Third-party PYUSD issuer arrangement and risk disclosures",
+    "status": "verified_sec_filing",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+    "title": "Circle 10-Q",
+    "period": "Q2 2026",
+    "claim": "Interest sensitivity, diluted shares, RSUs and ARC token-sale cash proceeds",
+    "status": "verified_sec_filing",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ12",
+    "url": "https://assets.ctfassets.net/vyse88cgwfbl/2kYf7r64h3tzwiu6F0CbUB/2997abd2f11ecea74a21528048b50707/Opinion___Report_-_Tether_International_Financial_Figure_30-06-2026.pdf",
+    "title": "Tether BDO financial figures and reserves report",
+    "period": "June 30 2026",
+    "claim": "Assets, liabilities, equity, financial result and scope limitations",
+    "status": "verified_opened_attestation",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ13",
+    "url": "https://tether.io/news/tether-posts-strong-q2-performance-generates-1-5b-net-operating-profit-maintains-4-11b-reserve-buffer-and-expands-gold-holdings-to-more-than-146-tons/",
+    "title": "Tether Q2 release",
+    "period": "Q2 2026",
+    "claim": "Net operating profit is different from net financial result",
+    "status": "verified_company_report",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "EQ14",
+    "url": "https://tether.io/news/tether-completes-the-largest-inaugural-financial-audit-in-history/",
+    "title": "Tether KPMG audit announcement",
+    "period": "FY2025 audit announced August 13 2026",
+    "claim": "Company reports KPMG audit; signed report not acquired",
+    "status": "issuer_claim_pending_independent_document_verification",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "equities_research.md"
+  },
+  {
+    "id": "T01",
+    "url": "https://ethereum.org/developers/docs/gas/",
+    "title": "Ethereum gas",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "ETH base-fee burn and validator priority fees; documented mechanism",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T02",
+    "url": "https://ethereum.org/roadmap/merge/issuance/",
+    "title": "ETH issuance",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "PoS issuance offsets burn; no unconditional deflation assumption",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T03",
+    "url": "https://solana.com/docs/core/fees/fee-structure",
+    "title": "Solana fees",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Half base fees burned, half validator; priority fees entirely validator",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T04",
+    "url": "https://solana.com/staking",
+    "title": "Solana staking",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Published inflation schedule, not live RPC verification",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T05",
+    "url": "https://developers.tron.network/es/docs/resource-model",
+    "title": "TRON resource model",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "TRX staking/delegation for resources; shortfalls burn TRX",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T06",
+    "url": "https://chain.link/blog/chainlink-reserve-strategic-link-reserve",
+    "title": "LINK reserve",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Issuer-described payment abstraction and strategic reserve; not dividend or permanent burn",
+    "status": "issuer_reported_not_independently_reconciled",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T07",
+    "url": "https://chain.link/circulating-supply",
+    "title": "LINK releases",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Issuer states current annual release schedule of 7% of total 1bn LINK supply",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T08",
+    "url": "https://www.aave.com/docs/ecosystem/aave",
+    "title": "AAVE documentation",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Historical annual buyback budget and treasury rather than burn treatment; current status conflicts with later post",
+    "status": "historical_document_current_status_conflict",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T09",
+    "url": "https://governance.aave.com/t/arfc-pause-aave-buybacks/24686",
+    "title": "AAVE pause",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "TokenLogic reports buybacks paused since 2026-04-19; no restart independently verified",
+    "status": "dated_operator_report_current_restart_unverified",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T10",
+    "url": "https://sky.money/blog/understanding-the-sky-token",
+    "title": "SKY explanation",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Frontend says surplus-funded buys and staking distributions; cap immutability not independently verified",
+    "status": "issuer_reported_not_independently_reconciled",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T11",
+    "url": "https://xrpl.org/docs/concepts/transactions/transaction-cost",
+    "title": "XRPL fees",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "XRP transaction fees destroyed, not paid to holder",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T12",
+    "url": "https://developers.stellar.org/docs/learn/fundamentals/lumens",
+    "title": "Stellar supply",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Fee pool noncirculating; distributions can increase float despite disabled inflation",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T13",
+    "url": "https://governance.aave.com/t/restart-aave-buy-backs/24936",
+    "title": "Community thread",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Calls to restart AAVE and future buyback design do not prove execution",
+    "status": "proposal_or_discussion_not_execution",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T14",
+    "url": "https://vote.sky.money/executive/template-executive-vote-monthly-settlement-cycle-for-august-2026-treasury-management-function-parameter-updates-increase-mkr-sky-delayed-upgrade-penalty-adjust-allocator-vault-dc-iam-parameters-prime-agent-proxy-spells-september-10-2026",
+    "title": "Executive proposal",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "September 10 SKY changes conditional; linked execution explorer inaccessible",
+    "status": "proposal_or_discussion_not_execution",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T15",
+    "url": "https://sky.money/blog/what-staking-sky-unlocks",
+    "title": "September 25 explanation",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Frontend describes current treasury and buyback-funded SKY rewards",
+    "status": "issuer_reported_not_independently_reconciled",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T16",
+    "url": "https://metrics.chain.link/reserve",
+    "title": "Reserve dashboard",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Official dashboard reached; no current balance certified in this pass",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T17",
+    "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+    "title": "Announcement",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Issuer announcement of Arc mainnet September 16 with USDC fees; adoption claims unverified",
+    "status": "issuer_reported_not_independently_reconciled",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T18",
+    "url": "https://tempo.xyz/",
+    "title": "Website",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Tempo advertises mainnet and USD stablecoin fees",
+    "status": "issuer_reported_not_independently_reconciled",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T19",
+    "url": "https://docs.tempo.xyz/",
+    "title": "Docs",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Tempo documents mainnet payments interfaces",
+    "status": "primary_document_verified_mechanism_only",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T20",
+    "url": "https://www.plasma.org/company/blog/xpl-the-public-sale-and-its-role-in-the-plasma-ecosystem",
+    "title": "Allocation",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "XPL published allocation, cliff and conditional inflation schedule; unlock execution unverified",
+    "status": "issuer_reported_not_independently_reconciled",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T21",
+    "url": "https://www.plasma.org/company/blog/plasma-mainnet-beta-and-xpl",
+    "title": "Launch",
+    "period": "Retrieved 2026-09-29; document dates distinguished in report",
+    "claim": "Plasma announced September 25 2025 beta launch",
+    "status": "issuer_reported_not_independently_reconciled",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T22",
+    "url": "https://etherscan.io/address/0x86d6CdD0D259AAAfb8134D47464b77743F50380B",
+    "title": "SKY September executive spell",
+    "period": "Attempted 2026-09-29",
+    "claim": "Execution could not be independently verified; fetch 403",
+    "status": "blocked_403",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "T23",
+    "url": "https://etherscan.io/address/0x9A709B7B69EA42D5eeb1ceBC48674C69E1569eC6",
+    "title": "Chainlink reserve contract",
+    "period": "Attempted 2026-09-29",
+    "claim": "Reserve balance and transactions not independently verified; fetch 403",
+    "status": "blocked_403",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "tokens_research.md"
+  },
+  {
+    "id": "R01",
+    "url": "https://www.legislation.gov.au/C2026A00038/asmade/2026-04-08/text/original/epub/OEBPS/document_1/document_1.html",
+    "title": "Corporations Amendment (Digital Assets Framework) Act 2026",
+    "period": "Assent 2026-04-08; commencement 2027-04-08",
+    "claim": "Act enacted but not yet commenced at cutoff",
+    "status": "verified-primary",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R02",
+    "url": "https://www.asic.gov.au/regulatory-resources/digital-transformation/digital-assets-financial-products-and-services",
+    "title": "ASIC INFO225",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Product rights and arrangements determine financial-product analysis; reform-status prose partly stale",
+    "status": "verified-primary-with-stale-reform-status",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R03",
+    "url": "https://treasury.gov.au/policy-topics/banking-and-finance/payments-licensing-reforms",
+    "title": "Treasury payments licensing reforms",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Tranche 1 payments package described as draft legislation",
+    "status": "verified-primary-proposal",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R04",
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/pdf/PLAW-119publ27.pdf",
+    "title": "GENIUS Act Public Law 119-27",
+    "period": "Approved 2025-07-18",
+    "claim": "Section20 general effective-date formula; Section3 separate delayed offer/sale restriction",
+    "status": "verified-primary",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R05",
+    "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-69.html",
+    "title": "OCC GENIUS next steps",
+    "period": "2026-08-19",
+    "claim": "OCC anticipated November final rule; all-agency status not established",
+    "status": "verified-primary-limited-scope",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R06",
+    "url": "https://www.circle.com/legal/usdc-terms",
+    "title": "Circle USDC terms",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Direct redemption conditional on Circle Mint eligibility; no reserve-interest entitlement; no deposit insurance",
+    "status": "verified-issuer-terms",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R07",
+    "url": "https://tether.to/en/legal/",
+    "title": "Tether legal terms",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Direct redemption requires verified customer and subject to conditions/fees",
+    "status": "verified-issuer-terms",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R08",
+    "url": "https://docs.ethena.fi/resources/faq",
+    "title": "Ethena FAQ",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Hedged synthetic dollar mechanics and possible sustained negative funding",
+    "status": "verified-issuer-description-not-independent-safety-assurance",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R09",
+    "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/crypto-asset-investments/keeping-crypto-records?anchor=Cryptoassettransactionrecords",
+    "title": "ATO Keeping crypto records",
+    "period": "Updated 2024-06-16; retrieved 2026-09-29",
+    "claim": "Record transactions and AUD values; no personal tax conclusion",
+    "status": "primary-search-excerpt-open-failed",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R10",
+    "url": "https://www.visaonchainanalytics.com/transactions",
+    "title": "Visa Onchain Analytics methodology",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Adjusted volume filters and probabilistic labels; includes categories beyond payments",
+    "status": "verified-primary",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R11",
+    "url": "https://dune.com/data",
+    "title": "Dune data catalog",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Stablecoin transfer and holder datasets available; query correctness not independently tested",
+    "status": "verified-provider-description",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R12",
+    "url": "https://docs.llama.fi/analysts/data-definitions",
+    "title": "DefiLlama data definitions",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Separate TVL, flows, fees and revenue definitions",
+    "status": "verified-primary",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "R13",
+    "url": "https://docs.llama.fi/list-your-project/other-dashboards",
+    "title": "DefiLlama dimensions adapters",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Supply-side revenue distinct from protocol/holder revenue",
+    "status": "primary-search-excerpt",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "risk_research.md"
+  },
+  {
+    "id": "M01",
+    "url": "https://defillama.com/stablecoins",
+    "title": "DefiLlama webpage",
+    "period": "Retrieved 2026-09-29",
+    "claim": "306.306bn headline; different from API snapshot",
+    "status": "provider_snapshot_scope_unresolved",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "STABLECOIN_INVESTMENT_MAP.md"
+  },
+  {
+    "id": "M02",
+    "url": "https://stablecoins.llama.fi/stablecoins?includePrices=true",
+    "title": "DefiLlama assets API",
+    "period": "Retrieved 2026-09-29",
+    "claim": "427 records; nominal USD-peg subtotal313.019bn; contains heterogeneous products",
+    "status": "provider_snapshot_scope_unresolved",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "STABLECOIN_INVESTMENT_MAP.md"
+  },
+  {
+    "id": "M03",
+    "url": "https://stablecoins.llama.fi/stablecoinchains",
+    "title": "DefiLlama chain API",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Chain totals from current API",
+    "status": "provider_snapshot",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "STABLECOIN_INVESTMENT_MAP.md"
+  },
+  {
+    "id": "M04",
+    "url": "https://api.binance.com/api/v3/ticker/bookTicker?symbols=%5B%22ETHUSDT%22,%22SOLUSDT%22,%22TRXUSDT%22,%22LINKUSDT%22,%22AAVEUSDT%22,%22SKYUSDT%22,%22XRPUSDT%22,%22XLMUSDT%22%5D",
+    "title": "Binance bookTicker",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Bid ask snapshots in USDT",
+    "status": "primary_market_snapshot",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "STABLECOIN_INVESTMENT_MAP.md"
+  },
+  {
+    "id": "M05",
+    "url": "https://docs.alpaca.markets/docs/market-data",
+    "title": "Alpaca IEX connector",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Latest trade response preserved; no execution suitability claimed",
+    "status": "primary_market_snapshot",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "STABLECOIN_INVESTMENT_MAP.md"
+  },
+  {
+    "id": "M06",
+    "url": "https://www.bis.org/publications/iii-anchoring-trust-money-innovation-beyond-stablecoins",
+    "title": "BIS tokenisation countercase",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Tokenised bank money competes with stablecoins",
+    "status": "primary_institutional_analysis",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "STABLECOIN_INVESTMENT_MAP.md"
+  },
+  {
+    "id": "M07",
+    "url": "https://www.circle.com/transparency",
+    "title": "Circle reserve transparency",
+    "period": "Retrieved 2026-09-29",
+    "claim": "Reserve categories and report scope",
+    "status": "primary_issuer_disclosure",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "STABLECOIN_INVESTMENT_MAP.md"
+  },
+  {
+    "id": "M08",
+    "url": "https://stablecoins.llama.fi/stablecoincharts/all",
+    "title": "DefiLlama aggregate chart",
+    "period": "Retrieved 2026-09-29",
+    "claim": "312.963bn USD-equivalent at2026-09-29T00:00Z; differing universe/time",
+    "status": "provider_snapshot_scope_unresolved",
+    "retrieved_date": "2026-09-29",
+    "research_packet": "STABLECOIN_INVESTMENT_MAP.md"
+  }
+]

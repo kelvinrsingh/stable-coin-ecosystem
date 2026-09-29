@@ -1,0 +1,15 @@
+symbol,nominal_usd_pegged_units,provider_classification,retrieved_utc,source,status
+USDT,183775721202.4567,fiat-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+USDC,74779954267.5795,fiat-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+USDS,6672882382.0581665,crypto-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+USDe,4908505517.783532,crypto-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+DAI,4805961002.669025,crypto-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+PYUSD,2679464972.7383447,fiat-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+RLUSD,2519166975.4591174,fiat-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+USYC,2403926201.042509,fiat-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+BUIDL,2245429196.1276493,fiat-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+GHO,698709842.2321024,crypto-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+USDS,18048323.506613486,algorithmic,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+USDS,516328.8215853688,crypto-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+USDS,100769.6492615901,crypto-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
+USDS,85451.13170301658,crypto-backed,2026-09-29T09:01:17.998761+00:00,https://stablecoins.llama.fi/stablecoins?includePrices=true,provider_snapshot_not_issuer_audited;categories_not_equivalent
