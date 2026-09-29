@@ -1,0 +1,2 @@
+# Full fetched pages stay local; curated source rows and provenance are versioned.
+/sources/*.html

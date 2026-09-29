@@ -1,0 +1,135 @@
+{
+  "currency": "AUD",
+  "capital_per_candidate": 1000,
+  "default_paper_venue_balance": 1000,
+  "paper_venue_balances": {},
+  "assumed_min_stake": 1,
+  "fixed_cost_per_candidate": 1,
+  "other_fee_per_leg": 0,
+  "minimum_net_profit": 1,
+  "minimum_roi": 0.005,
+  "max_quote_age_seconds": 20,
+  "max_snapshot_age_seconds": 30,
+  "max_quote_skew_seconds": 10,
+  "start_buffer_seconds": 60,
+  "licence_review_days": 30,
+  "max_combinations_per_market": 100000,
+  "max_delay_capture_gap_seconds": 1,
+  "delay_seconds": [
+    2,
+    5,
+    15,
+    30
+  ],
+  "adverse_decimal_odds_moves": [
+    0,
+    0.01,
+    0.05
+  ],
+  "hedge_fill_fractions": [
+    0,
+    0.5,
+    1
+  ],
+  "operators": {
+    "sportsbet": {
+      "title": "Sportsbet",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "checked_at": "2026-09-29T06:31:00Z"
+    },
+    "ladbrokes": {
+      "title": "Ladbrokes",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "checked_at": "2026-09-29T06:31:00Z"
+    },
+    "neds": {
+      "title": "Neds",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "checked_at": "2026-09-29T06:31:00Z"
+    },
+    "tab": {
+      "title": "TAB",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "checked_at": "2026-09-29T06:31:00Z"
+    },
+    "pointsbetau": {
+      "title": "PointsBet",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "checked_at": "2026-09-29T06:31:00Z"
+    },
+    "palmerbet": {
+      "title": "Palmerbet",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "checked_at": "2026-09-29T06:31:00Z"
+    },
+    "betright": {
+      "title": "Bet Right",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "checked_at": "2026-09-29T06:31:00Z"
+    },
+    "betfair_ex_au": {
+      "title": "Betfair Australia",
+      "licensed": true,
+      "type": "exchange",
+      "source": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "checked_at": "2026-09-29T06:31:00Z"
+    },
+    "unibet": {
+      "title": "Unibet (historical sample)",
+      "licensed": false,
+      "type": "bookmaker",
+      "source": null,
+      "checked_at": null
+    }
+  },
+  "exchange_commissions": {
+    "rugbyleague_nrl": {
+      "rate": 0.1,
+      "verified": false,
+      "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+      "basis": "Public standard rate baseline; exact account charges unverified"
+    },
+    "aussierules_afl": {
+      "rate": 0.06,
+      "verified": false,
+      "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+      "basis": "Public standard rate baseline; exact account charges unverified"
+    },
+    "basketball_nba": {
+      "rate": 0.06,
+      "verified": false,
+      "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+      "basis": "Public standard rate baseline; exact account charges unverified"
+    },
+    "soccer_epl": {
+      "rate": 0.06,
+      "verified": false,
+      "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+      "basis": "Public standard rate baseline; exact account charges unverified"
+    }
+  },
+  "settlement_profiles": {},
+  "market_rule_assignments": {},
+  "event_market_manifests": {},
+  "observed_limits": {},
+  "notes": [
+    "AUD 1 per comparison is an illustrative allocated research cost, not a measured fee.",
+    "Paper balances are sizing assumptions, not verified account funds.",
+    "No real settlement profiles or accepted stake capacities have been supplied.",
+    "Public exchange commission baselines require verification for the exact account, market and additional charges."
+  ]
+}

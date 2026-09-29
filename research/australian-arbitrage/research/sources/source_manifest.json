@@ -1,0 +1,50 @@
+{
+  "sources": {
+    "acma": {
+      "url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00",
+      "raw_sha256": "c48ac24eaabe9aa5d2d0f351e604bcb464a525bd81b60c6e3969c2d7ec56e6c6",
+      "raw_bytes": 332167,
+      "page_last_updated": "2026-09-07"
+    },
+    "mybettingsites": {
+      "url": "https://mybettingsites.com/au/articles/list-of-all-online-betting-sites-australia",
+      "retrieved_at_utc": "2026-09-29T10:09:49.579715+00:00",
+      "raw_sha256": "30c70043ba769b43aaa89eb76efdf21e358b6b2713ba9cba0d229c0c35325708",
+      "raw_bytes": 3438621,
+      "page_reported_as_of": "2026-09-23"
+    },
+    "puntguide": {
+      "url": "https://puntguide.com.au/all-betting-sites",
+      "retrieved_at_utc": "2026-09-29T10:09:50.242051+00:00",
+      "raw_sha256": "23b88eb37cf075b76ce2f1a3f54f971202cb2afd1bd083ba13633100e4c5c026",
+      "raw_bytes": 190217,
+      "count_caveat": "Visible title/counts vary; parsed 138 cards, including HueyBet marked coming soon."
+    },
+    "acma_download": {
+      "url": "https://www.acma.gov.au/data/interactive-gambling/json",
+      "retrieved_at_utc": "2026-09-29T10:10:20.841278+00:00",
+      "raw_sha256": "5d17530eebbfb81fa2dfdef8b83f6beaf43c9cbe4d0aef26fd5ea7a232f90236",
+      "raw_bytes": 36438
+    }
+  },
+  "curated_inputs": {
+    "acma_download.json": {
+      "sha256": "5d17530eebbfb81fa2dfdef8b83f6beaf43c9cbe4d0aef26fd5ea7a232f90236",
+      "bytes": 36438
+    },
+    "acma_register_rows.json": {
+      "sha256": "b0c319ba06070d9c930cdb0f7115c779d7bd9de83e25b42100985706d3c52f8c",
+      "bytes": 60648
+    },
+    "directory_candidates.json": {
+      "sha256": "eed88d5d7ce0169edd0f43626db889f833a9d6390df6561e556d3cc4008ce6ca",
+      "bytes": 39754
+    },
+    "domain_observations.json": {
+      "sha256": "3eee952604d7827761dce5465538900686f9fa14b5e410382cce9a6915559078",
+      "bytes": 704
+    }
+  },
+  "extraction": "ACMA: all four cells of all table data rows plus URL hrefs. Direct JSON export saved unchanged. MyBettingSites: all 139 rows of first table, company name only. PuntGuide: all 138 article.bm-card elements, name/status/direct URL where present; affiliate links omitted. Full HTML retained locally and ignored; curated input extracts committed."
+}

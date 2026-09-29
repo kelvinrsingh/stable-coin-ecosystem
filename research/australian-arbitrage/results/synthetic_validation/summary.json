@@ -1,0 +1,349 @@
+{
+  "run_id": "d028d109ff9e42268170155b7f98ec46",
+  "generated_at": "2026-09-29T06:50:46.724460+00:00",
+  "mode": "PAPER_ONLY",
+  "snapshots": 5,
+  "observations": 44,
+  "comparisons": 19,
+  "counts": {
+    "synthetic_candidate": 9,
+    "rejected": 7,
+    "blocked_unverified": 3
+  },
+  "by_source_mode": {
+    "synthetic_fixture": {
+      "snapshots": 5,
+      "comparisons": 19,
+      "positive_price_calculations": 12,
+      "statuses": {
+        "synthetic_candidate": 9,
+        "rejected": 7,
+        "blocked_unverified": 3
+      }
+    }
+  },
+  "quality_issues": 12,
+  "rejection_reasons": {
+    "no_positive_profit_after_costs": 7,
+    "below_research_threshold": 3
+  },
+  "independent_opportunities": null,
+  "realised_profit": null,
+  "bets_placed": 0,
+  "best_calculations": [
+    {
+      "event_name": "Synthetic three-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 43.37900000000002,
+      "net_roi": 0.04337986759735196,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic three-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 43.37900000000002,
+      "net_roi": 0.04337986759735196,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic three-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 43.37900000000002,
+      "net_roi": 0.04337986759735196,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic three-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 43.37900000000002,
+      "net_roi": 0.04337986759735196,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic three-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 43.37900000000002,
+      "net_roi": 0.04337986759735196,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic two-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 36.347000000000094,
+      "net_roi": 0.036347363473634826,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic two-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 36.347000000000094,
+      "net_roi": 0.036347363473634826,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic back/lay after 6% commission",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 17.132799999999975,
+      "net_roi": 0.017132954196587745,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic back/lay after 6% commission",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "synthetic_candidate",
+      "min_net_pnl": 17.132799999999975,
+      "net_roi": 0.017132954196587745,
+      "reasons": []
+    },
+    {
+      "event_name": "Synthetic back/lay after 6% commission",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "blocked_unverified",
+      "min_net_pnl": 0.7631999999999834,
+      "net_roi": 0.0007632116008163159,
+      "reasons": [
+        "below_research_threshold"
+      ]
+    },
+    {
+      "event_name": "Synthetic back/lay after 6% commission",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "blocked_unverified",
+      "min_net_pnl": 0.7631999999999834,
+      "net_roi": 0.0007632116008163159,
+      "reasons": [
+        "below_research_threshold"
+      ]
+    },
+    {
+      "event_name": "Synthetic back/lay after 6% commission",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "blocked_unverified",
+      "min_net_pnl": 0.7631999999999834,
+      "net_roi": 0.0007632116008163159,
+      "reasons": [
+        "below_research_threshold"
+      ]
+    },
+    {
+      "event_name": "Synthetic commission removes apparent edge",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "rejected",
+      "min_net_pnl": -4.815400000000011,
+      "net_roi": -0.004815450562230915,
+      "reasons": [
+        "no_positive_profit_after_costs"
+      ]
+    },
+    {
+      "event_name": "Synthetic commission removes apparent edge",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "rejected",
+      "min_net_pnl": -4.815400000000011,
+      "net_roi": -0.004815450562230915,
+      "reasons": [
+        "no_positive_profit_after_costs"
+      ]
+    },
+    {
+      "event_name": "Synthetic commission removes apparent edge",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "rejected",
+      "min_net_pnl": -4.815400000000011,
+      "net_roi": -0.004815450562230915,
+      "reasons": [
+        "no_positive_profit_after_costs"
+      ]
+    },
+    {
+      "event_name": "Synthetic commission removes apparent edge",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "rejected",
+      "min_net_pnl": -4.815400000000011,
+      "net_roi": -0.004815450562230915,
+      "reasons": [
+        "no_positive_profit_after_costs"
+      ]
+    },
+    {
+      "event_name": "Synthetic commission removes apparent edge",
+      "strategy": "back_lay",
+      "source_mode": "synthetic_fixture",
+      "status": "rejected",
+      "min_net_pnl": -4.815400000000011,
+      "net_roi": -0.004815450562230915,
+      "reasons": [
+        "no_positive_profit_after_costs"
+      ]
+    },
+    {
+      "event_name": "Synthetic two-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "rejected",
+      "min_net_pnl": -6.718999999999994,
+      "net_roi": -0.036180065693823676,
+      "reasons": [
+        "no_positive_profit_after_costs"
+      ]
+    },
+    {
+      "event_name": "Synthetic two-way price gap",
+      "strategy": "fixed_odds",
+      "source_mode": "synthetic_fixture",
+      "status": "rejected",
+      "min_net_pnl": -31.777000000000044,
+      "net_roi": -0.03177731777317778,
+      "reasons": [
+        "no_positive_profit_after_costs"
+      ]
+    }
+  ],
+  "assumptions": {
+    "currency": "AUD",
+    "capital_per_candidate": 1000,
+    "default_paper_venue_balance": 1000,
+    "paper_venue_balances": {},
+    "assumed_min_stake": 1,
+    "fixed_cost_per_candidate": 1,
+    "other_fee_per_leg": 0,
+    "minimum_net_profit": 1,
+    "minimum_roi": 0.005,
+    "max_quote_age_seconds": 20,
+    "max_snapshot_age_seconds": 30,
+    "max_quote_skew_seconds": 10,
+    "start_buffer_seconds": 60,
+    "licence_review_days": 30,
+    "max_combinations_per_market": 100000,
+    "max_delay_capture_gap_seconds": 1,
+    "delay_seconds": [
+      2,
+      5,
+      15,
+      30
+    ],
+    "adverse_decimal_odds_moves": [
+      0,
+      0.01,
+      0.05
+    ],
+    "hedge_fill_fractions": [
+      0,
+      0.5,
+      1
+    ],
+    "operators": {
+      "alpha": {
+        "title": "Synthetic bookmaker Alpha",
+        "licensed": true,
+        "type": "bookmaker",
+        "source": "synthetic test only"
+      },
+      "beta": {
+        "title": "Synthetic bookmaker Beta",
+        "licensed": true,
+        "type": "bookmaker",
+        "source": "synthetic test only"
+      },
+      "gamma": {
+        "title": "Synthetic bookmaker Gamma",
+        "licensed": true,
+        "type": "bookmaker",
+        "source": "synthetic test only"
+      },
+      "exchange": {
+        "title": "Synthetic exchange",
+        "licensed": true,
+        "type": "exchange",
+        "source": "synthetic test only"
+      }
+    },
+    "exchange_commissions": {
+      "rugbyleague_nrl": {
+        "rate": 0.1,
+        "verified": false,
+        "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+        "basis": "Public standard rate baseline; exact account charges unverified"
+      },
+      "aussierules_afl": {
+        "rate": 0.06,
+        "verified": false,
+        "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+        "basis": "Public standard rate baseline; exact account charges unverified"
+      },
+      "basketball_nba": {
+        "rate": 0.06,
+        "verified": false,
+        "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+        "basis": "Public standard rate baseline; exact account charges unverified"
+      },
+      "soccer_epl": {
+        "rate": 0.06,
+        "verified": false,
+        "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+        "basis": "Public standard rate baseline; exact account charges unverified"
+      }
+    },
+    "settlement_profiles": {
+      "demo": {
+        "verified": true,
+        "synthetic": true,
+        "signature": {
+          "period": "full match",
+          "overtime": "included for two-way; not applicable for three-way fixture",
+          "draw": "enumerated if applicable",
+          "push": "not applicable",
+          "retirement": "fixture: all bets void",
+          "postponement": "fixture: all bets void",
+          "dead_heat": "not applicable",
+          "void_policy": "fixture: identical"
+        },
+        "evidence_by_bookmaker": {
+          "alpha": "synthetic fixture",
+          "beta": "synthetic fixture",
+          "gamma": "synthetic fixture",
+          "exchange": "synthetic fixture"
+        }
+      }
+    },
+    "market_rule_assignments": {},
+    "event_market_manifests": {},
+    "observed_limits": {},
+    "notes": [
+      "SYNTHETIC VALIDATION ONLY. Invented prices, limits and identical rules; no operator offer or licence is implied.",
+      "AUD 1 allocated cost; AUD 1,000 total capital per comparison."
+    ]
+  },
+  "limits": [
+    "Comparisons overlap; do not add their profits or count them as independent opportunities.",
+    "First-seen timestamps mean first ingestion into this ledger, not first bookmaker publication.",
+    "Historical and synthetic results are not current opportunities.",
+    "Paper balances and commission assumptions are not account execution evidence.",
+    "No bets, fills, settlements or realised profits have been measured."
+  ],
+  "input_errors": []
+}

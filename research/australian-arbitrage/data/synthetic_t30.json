@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "synthetic-validation-t30",
+  "source_mode": "synthetic_fixture",
+  "captured_at": "2026-09-29T06:00:30.000Z",
+  "source": "Invented deterministic test data. No real prices or results.",
+  "events": [
+    {
+      "event_id": "two-way",
+      "event_name": "Synthetic two-way price gap",
+      "sport": "synthetic",
+      "start_time": "2026-10-01T12:00:00Z",
+      "markets": [
+        {
+          "market_key": "h2h",
+          "expected_outcomes": [
+            "A",
+            "B"
+          ],
+          "outcomes_verified": true,
+          "outcome_evidence": "synthetic exhaustive outcomes",
+          "quotes": [
+            {
+              "bookmaker": "alpha",
+              "outcome": "A",
+              "odds": 2.1,
+              "side": "back",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 1000,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            },
+            {
+              "bookmaker": "beta",
+              "outcome": "B",
+              "odds": 1.8,
+              "side": "back",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 100,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "three-way",
+      "event_name": "Synthetic three-way price gap",
+      "sport": "synthetic",
+      "start_time": "2026-10-01T12:00:00Z",
+      "markets": [
+        {
+          "market_key": "h2h",
+          "expected_outcomes": [
+            "Home",
+            "Draw",
+            "Away"
+          ],
+          "outcomes_verified": true,
+          "outcome_evidence": "synthetic exhaustive outcomes",
+          "quotes": [
+            {
+              "bookmaker": "alpha",
+              "outcome": "Home",
+              "odds": 2.8,
+              "side": "back",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 1000,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            },
+            {
+              "bookmaker": "beta",
+              "outcome": "Draw",
+              "odds": 3.6,
+              "side": "back",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 1000,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            },
+            {
+              "bookmaker": "gamma",
+              "outcome": "Away",
+              "odds": 3.1,
+              "side": "back",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 1000,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "back-lay",
+      "event_name": "Synthetic back/lay after 6% commission",
+      "sport": "synthetic",
+      "start_time": "2026-10-01T12:00:00Z",
+      "markets": [
+        {
+          "market_key": "h2h",
+          "expected_outcomes": [
+            "A",
+            "B"
+          ],
+          "outcomes_verified": true,
+          "outcome_evidence": "synthetic exhaustive outcomes",
+          "quotes": [
+            {
+              "bookmaker": "alpha",
+              "outcome": "A",
+              "odds": 2.2,
+              "side": "back",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 1000,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            },
+            {
+              "bookmaker": "exchange",
+              "outcome": "A",
+              "odds": 2.12,
+              "side": "lay",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 1000,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0.06,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "commission-trap",
+      "event_name": "Synthetic commission removes apparent edge",
+      "sport": "synthetic",
+      "start_time": "2026-10-01T12:00:00Z",
+      "markets": [
+        {
+          "market_key": "h2h",
+          "expected_outcomes": [
+            "A",
+            "B"
+          ],
+          "outcomes_verified": true,
+          "outcome_evidence": "synthetic exhaustive outcomes",
+          "quotes": [
+            {
+              "bookmaker": "alpha",
+              "outcome": "A",
+              "odds": 2.1,
+              "side": "back",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 1000,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            },
+            {
+              "bookmaker": "exchange",
+              "outcome": "A",
+              "odds": 2.05,
+              "side": "lay",
+              "source_updated_at": "2026-09-29T06:00:30.000Z",
+              "source_timestamp_kind": "provider_quote_update",
+              "source_url": "synthetic://validation-fixture",
+              "rules_id": "demo",
+              "max_stake": 1000,
+              "min_stake": 1,
+              "limit_basis": "synthetic",
+              "limit_source": "synthetic fixture",
+              "limit_updated_at": "2026-09-29T06:00:30.000Z",
+              "commission_rate": 0.06,
+              "commission_verified": true,
+              "commission_source": "synthetic fixture 6%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

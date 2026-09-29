@@ -1,0 +1,3617 @@
+{
+  "schema_version": 1,
+  "scope": "Australian ACMA register services plus unverified directory candidates; not all gambling categories",
+  "sources": {
+    "acma": {
+      "url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00",
+      "raw_sha256": "c48ac24eaabe9aa5d2d0f351e604bcb464a525bd81b60c6e3969c2d7ec56e6c6",
+      "raw_bytes": 332167,
+      "page_last_updated": "2026-09-07"
+    },
+    "mybettingsites": {
+      "url": "https://mybettingsites.com/au/articles/list-of-all-online-betting-sites-australia",
+      "retrieved_at_utc": "2026-09-29T10:09:49.579715+00:00",
+      "raw_sha256": "30c70043ba769b43aaa89eb76efdf21e358b6b2713ba9cba0d229c0c35325708",
+      "raw_bytes": 3438621,
+      "page_reported_as_of": "2026-09-23"
+    },
+    "puntguide": {
+      "url": "https://puntguide.com.au/all-betting-sites",
+      "retrieved_at_utc": "2026-09-29T10:09:50.242051+00:00",
+      "raw_sha256": "23b88eb37cf075b76ce2f1a3f54f971202cb2afd1bd083ba13633100e4c5c026",
+      "raw_bytes": 190217,
+      "count_caveat": "Visible title/counts vary; parsed 138 cards, including HueyBet marked coming soon."
+    },
+    "acma_download": {
+      "url": "https://www.acma.gov.au/data/interactive-gambling/json",
+      "retrieved_at_utc": "2026-09-29T10:10:20.841278+00:00",
+      "raw_sha256": "5d17530eebbfb81fa2dfdef8b83f6beaf43c9cbe4d0aef26fd5ea7a232f90236",
+      "raw_bytes": 36438
+    }
+  },
+  "input_hashes": {
+    "acma_download.json": {
+      "sha256": "5d17530eebbfb81fa2dfdef8b83f6beaf43c9cbe4d0aef26fd5ea7a232f90236",
+      "bytes": 36438
+    },
+    "acma_register_rows.json": {
+      "sha256": "b0c319ba06070d9c930cdb0f7115c779d7bd9de83e25b42100985706d3c52f8c",
+      "bytes": 60648
+    },
+    "directory_candidates.json": {
+      "sha256": "eed88d5d7ce0169edd0f43626db889f833a9d6390df6561e556d3cc4008ce6ca",
+      "bytes": 39754
+    },
+    "domain_observations.json": {
+      "sha256": "3eee952604d7827761dce5465538900686f9fa14b5e410382cce9a6915559078",
+      "bytes": 704
+    }
+  },
+  "default_config_sha256": "16287bfdb058a8fa7b68c00cd2ecb9011e95d6c12daf7d1018a3a41ea1695cc9",
+  "runtime_enabled_meaning": "Existing default.json licensed/source gate only; not evidence of an adapter, working endpoint, current licence approval or operational site",
+  "holder_count_meaning": "Normalized licence-holder strings across URL-bearing register services; not independently resolved corporate entities",
+  "summary": {
+    "acma_register_rows": 219,
+    "acma_export_rows": 219,
+    "unresolved_export_mismatches": 0,
+    "register_classifications": {
+      "no_url": 1,
+      "non_operational": 15,
+      "registered_url": 173,
+      "telephone_only": 30
+    },
+    "registered_services": 167,
+    "registered_unique_hosts": 166,
+    "named_licence_holder_strings": 121,
+    "unresolved_directory_candidates": 3,
+    "inventory_records": 170,
+    "configured_operators": 9,
+    "runtime_enabled_operators": 8,
+    "registered_services_missing_from_enabled_config": 159,
+    "registered_services_missing_from_all_config": 158,
+    "directory_rows": 277,
+    "directory_matched_rows": 274
+  },
+  "rows": [
+    {
+      "source_row": 1,
+      "trading_name_raw": "123bet",
+      "license_holder": "Winners Bookmaking Pty Ltd",
+      "url_text": "https://www.123bet.com.au",
+      "urls": [
+        "https://www.123bet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 209,
+      "classification": "registered_url",
+      "service_keys": [
+        "123bet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 2,
+      "trading_name_raw": "Allbets",
+      "license_holder": "Allbets.com.au Pty Ltd",
+      "url_text": "https://allbets.com.au",
+      "urls": [
+        "https://allbets.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 2,
+      "classification": "registered_url",
+      "service_keys": [
+        "allbets.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 3,
+      "trading_name_raw": "Anthony John Doughty (telephone only)",
+      "license_holder": "Anthony Doughty Partnership",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 13,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 4,
+      "trading_name_raw": "Archie Francis Pittaway (telephone only)",
+      "license_holder": "Pittaway, Archie Francis",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "South Australia – Consumer and Business Services",
+      "export_row": 165,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 5,
+      "trading_name_raw": "Awesome Bet (telephone only)",
+      "license_holder": "Wayne Elliot Partnership",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 207,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 6,
+      "trading_name_raw": "BaggyBet",
+      "license_holder": "BaggyBet Pty Ltd",
+      "url_text": "https://baggybet.com",
+      "urls": [
+        "https://baggybet.com"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 14,
+      "classification": "registered_url",
+      "service_keys": [
+        "baggybet.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 7,
+      "trading_name_raw": "Ballr Bet",
+      "license_holder": "Ballr Pty Ltd",
+      "url_text": "https://www.ballrbet.com",
+      "urls": [
+        "https://www.ballrbet.com"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 16,
+      "classification": "registered_url",
+      "service_keys": [
+        "ballrbet.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 8,
+      "trading_name_raw": "Barringtonbookmaking.com (telephone only)",
+      "license_holder": "Barrington, Warren",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "South Australia – Consumer and Business Services",
+      "export_row": 17,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 9,
+      "trading_name_raw": "BearBet",
+      "license_holder": "Bet Holdings Pty Ltd",
+      "url_text": "https://www.bearbet.com.au",
+      "urls": [
+        "https://www.bearbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 21,
+      "classification": "registered_url",
+      "service_keys": [
+        "bearbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 10,
+      "trading_name_raw": "BeastBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://beastbet.com.au",
+      "urls": [
+        "https://beastbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 58,
+      "classification": "registered_url",
+      "service_keys": [
+        "beastbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 11,
+      "trading_name_raw": "Beazabet (telephone only)",
+      "license_holder": "BeazaBet Partnership",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 18,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 12,
+      "trading_name_raw": "Bet Alpha",
+      "license_holder": "Mintsports Pty Ltd",
+      "url_text": "https://www.betalpha.au",
+      "urls": [
+        "https://www.betalpha.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 142,
+      "classification": "registered_url",
+      "service_keys": [
+        "betalpha.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 13,
+      "trading_name_raw": "Bet Bunker",
+      "license_holder": "W Woodcock and V Moriarty Partnership",
+      "url_text": "https://www.betbunker.com.au",
+      "urls": [
+        "https://www.betbunker.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 205,
+      "classification": "registered_url",
+      "service_keys": [
+        "betbunker.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 14,
+      "trading_name_raw": "Bet Buzz",
+      "license_holder": "Mintsports Pty Ltd",
+      "url_text": "https://www.betbuzz.au",
+      "urls": [
+        "https://www.betbuzz.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 143,
+      "classification": "registered_url",
+      "service_keys": [
+        "betbuzz.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 15,
+      "trading_name_raw": "Bet Dash",
+      "license_holder": "Oke, Norman",
+      "url_text": "https://betdash.com.au",
+      "urls": [
+        "https://betdash.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 155,
+      "classification": "registered_url",
+      "service_keys": [
+        "betdash.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 16,
+      "trading_name_raw": "Bet Dragon",
+      "license_holder": "Mintsports Pty Ltd",
+      "url_text": "https://www.betdragon.au",
+      "urls": [
+        "https://www.betdragon.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 145,
+      "classification": "registered_url",
+      "service_keys": [
+        "betdragon.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 17,
+      "trading_name_raw": "Bet Legends",
+      "license_holder": "Beirne Racing Pty Ltd",
+      "url_text": "https://betlegends.com.au",
+      "urls": [
+        "https://betlegends.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 19,
+      "classification": "registered_url",
+      "service_keys": [
+        "betlegends.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 18,
+      "trading_name_raw": "Bet Nation",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.betnation.com.au",
+      "urls": [
+        "https://www.betnation.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 3,
+      "classification": "registered_url",
+      "service_keys": [
+        "betnation.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 19,
+      "trading_name_raw": "Bet Right",
+      "license_holder": "IRPSX Pty Ltd",
+      "url_text": "https://www.betright.com.au",
+      "urls": [
+        "https://www.betright.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 114,
+      "classification": "registered_url",
+      "service_keys": [
+        "betright.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 20,
+      "trading_name_raw": "Bet Rush",
+      "license_holder": "Bet Rush Pty Ltd",
+      "url_text": "https://www.betrush.com.au",
+      "urls": [
+        "https://www.betrush.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 22,
+      "classification": "registered_url",
+      "service_keys": [
+        "betrush.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 21,
+      "trading_name_raw": "Bet Supreme",
+      "license_holder": "Bet Supreme Pty Ltd",
+      "url_text": "https://betsupreme.com.au",
+      "urls": [
+        "https://betsupreme.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 23,
+      "classification": "registered_url",
+      "service_keys": [
+        "betsupreme.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 22,
+      "trading_name_raw": "Bet You Can",
+      "license_holder": "Bet You Can Pty Ltd",
+      "url_text": "https://betyoucan.au",
+      "urls": [
+        "https://betyoucan.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 24,
+      "classification": "registered_url",
+      "service_keys": [
+        "betyoucan.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 23,
+      "trading_name_raw": "bet365",
+      "license_holder": "Hillside (Australia New Media) Pty Ltd",
+      "url_text": "https://www.bet365.com.au",
+      "urls": [
+        "https://www.bet365.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 112,
+      "classification": "registered_url",
+      "service_keys": [
+        "bet365.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 24,
+      "trading_name_raw": "Bet777",
+      "license_holder": "Bet777 Pty Ltd",
+      "url_text": "https://bet777.com.au",
+      "urls": [
+        "https://bet777.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 25,
+      "classification": "registered_url",
+      "service_keys": [
+        "bet777.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 25,
+      "trading_name_raw": "Betabets",
+      "license_holder": "Graham, William",
+      "url_text": "https://www.betabets.com.au",
+      "urls": [
+        "https://www.betabets.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 106,
+      "classification": "registered_url",
+      "service_keys": [
+        "betabets.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 26,
+      "trading_name_raw": "BetAces",
+      "license_holder": "Millet, Carl",
+      "url_text": "https://www.betaces.com.au",
+      "urls": [
+        "https://www.betaces.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 138,
+      "classification": "registered_url",
+      "service_keys": [
+        "betaces.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 27,
+      "trading_name_raw": "Betaroo",
+      "license_holder": "Betaroo Pty Ltd",
+      "url_text": "https://www.betaroo.com.au",
+      "urls": [
+        "https://www.betaroo.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 26,
+      "classification": "registered_url",
+      "service_keys": [
+        "betaroo.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 28,
+      "trading_name_raw": "BetAus Pty Ltd",
+      "license_holder": "BetAus Pty Ltd",
+      "url_text": "https://betaus.com.au",
+      "urls": [
+        "https://betaus.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 27,
+      "classification": "registered_url",
+      "service_keys": [
+        "betaus.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 29,
+      "trading_name_raw": "BetBetBet",
+      "license_holder": "Betbetbet Partnership",
+      "url_text": "https://www.betbetbet.net.au",
+      "urls": [
+        "https://www.betbetbet.net.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 28,
+      "classification": "registered_url",
+      "service_keys": [
+        "betbetbet.net.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 30,
+      "trading_name_raw": "BetBlitz",
+      "license_holder": "Frank Hudson Partnership",
+      "url_text": "https://www.betblitz.com.au",
+      "urls": [
+        "https://www.betblitz.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 99,
+      "classification": "registered_url",
+      "service_keys": [
+        "betblitz.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 31,
+      "trading_name_raw": "Betbox (not currently operational)",
+      "license_holder": "BetMax Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 39,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 32,
+      "trading_name_raw": "BetBull",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://betbull.com.au",
+      "urls": [
+        "https://betbull.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 49,
+      "classification": "registered_url",
+      "service_keys": [
+        "betbull.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 33,
+      "trading_name_raw": "Betchamps",
+      "license_holder": "Millett, Carl",
+      "url_text": "https://www.betchamps.com.au",
+      "urls": [
+        "https://www.betchamps.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 139,
+      "classification": "registered_url",
+      "service_keys": [
+        "betchamps.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 34,
+      "trading_name_raw": "Betcoin",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://betcoin.com.au",
+      "urls": [
+        "https://betcoin.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 57,
+      "classification": "registered_url",
+      "service_keys": [
+        "betcoin.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 35,
+      "trading_name_raw": "BetDeluxe",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.betdeluxe.com.au",
+      "urls": [
+        "https://www.betdeluxe.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 5,
+      "classification": "registered_url",
+      "service_keys": [
+        "betdeluxe.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 36,
+      "trading_name_raw": "BetDogs (not currently operational)",
+      "license_holder": "Merlehan Bookmaking Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 134,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 37,
+      "trading_name_raw": "BetEstate",
+      "license_holder": "Betestate Pty Ltd",
+      "url_text": "https://betestate.com.au",
+      "urls": [
+        "https://betestate.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 30,
+      "classification": "registered_url",
+      "service_keys": [
+        "betestate.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 38,
+      "trading_name_raw": "BetExpress",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.betexpress.com.au",
+      "urls": [
+        "https://www.betexpress.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 4,
+      "classification": "registered_url",
+      "service_keys": [
+        "betexpress.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 39,
+      "trading_name_raw": "Betfair",
+      "license_holder": "Betfair Pty Ltd",
+      "url_text": "https://www.betfair.com.au",
+      "urls": [
+        "https://www.betfair.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 31,
+      "classification": "registered_url",
+      "service_keys": [
+        "betfair.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 40,
+      "trading_name_raw": "BetFans",
+      "license_holder": "BetFans Pty Ltd",
+      "url_text": "https://www.betfans.com.au",
+      "urls": [
+        "https://www.betfans.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 33,
+      "classification": "registered_url",
+      "service_keys": [
+        "betfans.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 41,
+      "trading_name_raw": "Betfocus",
+      "license_holder": "Betfocus Pty Ltd",
+      "url_text": "https://www.betfocus.com.au",
+      "urls": [
+        "https://www.betfocus.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 34,
+      "classification": "registered_url",
+      "service_keys": [
+        "betfocus.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 42,
+      "trading_name_raw": "BetGalaxy",
+      "license_holder": "Track Pursuits Pty Ltd",
+      "url_text": "https://betgalaxy.com.au",
+      "urls": [
+        "https://betgalaxy.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 191,
+      "classification": "registered_url",
+      "service_keys": [
+        "betgalaxy.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 43,
+      "trading_name_raw": "BetGold",
+      "license_holder": "Betgold Pty Ltd",
+      "url_text": "https://betgold.com.au",
+      "urls": [
+        "https://betgold.com.au"
+      ],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 35,
+      "classification": "registered_url",
+      "service_keys": [
+        "betgold.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 44,
+      "trading_name_raw": "Betit",
+      "license_holder": "Booki.com.au Pty Ltd",
+      "url_text": "https://betit.com.au",
+      "urls": [
+        "https://betit.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 66,
+      "classification": "registered_url",
+      "service_keys": [
+        "betit.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 45,
+      "trading_name_raw": "BetJet",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.betjet.com.au",
+      "urls": [
+        "https://www.betjet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 6,
+      "classification": "registered_url",
+      "service_keys": [
+        "betjet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 46,
+      "trading_name_raw": "BetJoey",
+      "license_holder": "Engellener, Gregory John",
+      "url_text": "https://betjoey.com.au",
+      "urls": [
+        "https://betjoey.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 92,
+      "classification": "registered_url",
+      "service_keys": [
+        "betjoey.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 47,
+      "trading_name_raw": "BetKings (not currently operational)",
+      "license_holder": "BetMax Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 37,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 48,
+      "trading_name_raw": "BetLocal",
+      "license_holder": "Betlocal Pty Ltd",
+      "url_text": "https://betlocal.com.au",
+      "urls": [
+        "https://betlocal.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 36,
+      "classification": "registered_url",
+      "service_keys": [
+        "betlocal.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 49,
+      "trading_name_raw": "betM (not currently operational)",
+      "license_holder": "MGB Australia Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 136,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 50,
+      "trading_name_raw": "BetMax (not currently operational)",
+      "license_holder": "BetMax Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 38,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 51,
+      "trading_name_raw": "Betnova",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://www.betnova.com.au",
+      "urls": [
+        "https://www.betnova.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 46,
+      "classification": "registered_url",
+      "service_keys": [
+        "betnova.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 52,
+      "trading_name_raw": "Betnow",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://www.betnow.com.au",
+      "urls": [
+        "https://www.betnow.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 47,
+      "classification": "registered_url",
+      "service_keys": [
+        "betnow.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 53,
+      "trading_name_raw": "BetPinnacle",
+      "license_holder": "Winners Bookmaking Pty Ltd",
+      "url_text": "https://www.betpinnacle.com.au",
+      "urls": [
+        "https://www.betpinnacle.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 213,
+      "classification": "registered_url",
+      "service_keys": [
+        "betpinnacle.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 54,
+      "trading_name_raw": "BetProfessor",
+      "license_holder": "Giant Bet Pty Ltd",
+      "url_text": "https://betprofessor.com.au",
+      "urls": [
+        "https://betprofessor.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 103,
+      "classification": "registered_url",
+      "service_keys": [
+        "betprofessor.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 55,
+      "trading_name_raw": "betr",
+      "license_holder": "Betr Entertainment Aus Pty Ltd",
+      "url_text": "https://www.betr.com.au",
+      "urls": [
+        "https://www.betr.com.au"
+      ],
+      "licensing_authority": "Tasmanian Liquor and Gaming Commission",
+      "export_row": 40,
+      "classification": "registered_url",
+      "service_keys": [
+        "betr.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 56,
+      "trading_name_raw": "BetRaven",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://betraven.com.au",
+      "urls": [
+        "https://betraven.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 53,
+      "classification": "registered_url",
+      "service_keys": [
+        "betraven.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 57,
+      "trading_name_raw": "BetReal",
+      "license_holder": "Crownsport Aust. Pty Ltd",
+      "url_text": "https://www.betreal.com.au",
+      "urls": [
+        "https://www.betreal.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 83,
+      "classification": "registered_url",
+      "service_keys": [
+        "betreal.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 58,
+      "trading_name_raw": "BetStation",
+      "license_holder": "Mansour, Gavin",
+      "url_text": "https://www.betstation.com.au",
+      "urls": [
+        "https://www.betstation.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 130,
+      "classification": "registered_url",
+      "service_keys": [
+        "betstation.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 59,
+      "trading_name_raw": "BetStorm",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://betstorm.com.au",
+      "urls": [
+        "https://betstorm.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 56,
+      "classification": "registered_url",
+      "service_keys": [
+        "betstorm.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 60,
+      "trading_name_raw": "Betzooka",
+      "license_holder": "Bossbet Pty Ltd",
+      "url_text": "https://betzooka.com.au",
+      "urls": [
+        "https://betzooka.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 72,
+      "classification": "registered_url",
+      "service_keys": [
+        "betzooka.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 61,
+      "trading_name_raw": "BigBet",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.bigbet.com.au",
+      "urls": [
+        "https://www.bigbet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 7,
+      "classification": "registered_url",
+      "service_keys": [
+        "bigbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 62,
+      "trading_name_raw": "BlondeBet",
+      "license_holder": "Pendlebury Bookmaking Pty Limited",
+      "url_text": "https://www.blondebet.com.au",
+      "urls": [
+        "https://www.blondebet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 160,
+      "classification": "registered_url",
+      "service_keys": [
+        "blondebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 63,
+      "trading_name_raw": "BookiePrice",
+      "license_holder": "Michener, Steven",
+      "url_text": "https://www.bookieprice.com",
+      "urls": [
+        "https://www.bookieprice.com"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 137,
+      "classification": "registered_url",
+      "service_keys": [
+        "bookieprice.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 64,
+      "trading_name_raw": "BoomBet (not currently operational)",
+      "license_holder": "Boombet Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 69,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 65,
+      "trading_name_raw": "Boostbet",
+      "license_holder": "Boostbet Pty Ltd",
+      "url_text": "https://boostbet.com.au",
+      "urls": [
+        "https://boostbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 70,
+      "classification": "registered_url",
+      "service_keys": [
+        "boostbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 66,
+      "trading_name_raw": "BossBet",
+      "license_holder": "Bossbet Pty Ltd",
+      "url_text": "https://bossbet.com.au",
+      "urls": [
+        "https://bossbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 71,
+      "classification": "registered_url",
+      "service_keys": [
+        "bossbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 67,
+      "trading_name_raw": "BushBet (not currently operational)",
+      "license_holder": "BushBet Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 73,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 68,
+      "trading_name_raw": "Business-Bet",
+      "license_holder": "Doughty, Anthony",
+      "url_text": "https://businessbet.com.au",
+      "urls": [
+        "https://businessbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 90,
+      "classification": "registered_url",
+      "service_keys": [
+        "businessbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 69,
+      "trading_name_raw": "CapitalBet",
+      "license_holder": "Capital Bet Pty Ltd",
+      "url_text": "https://capitalbet.com.au",
+      "urls": [
+        "https://capitalbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 74,
+      "classification": "registered_url",
+      "service_keys": [
+        "capitalbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 70,
+      "trading_name_raw": "Cash Cage",
+      "license_holder": "Cash Cage Pty Ltd",
+      "url_text": "https://www.cashcage.com.au",
+      "urls": [
+        "https://www.cashcage.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 76,
+      "classification": "registered_url",
+      "service_keys": [
+        "cashcage.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 71,
+      "trading_name_raw": "Chasebet",
+      "license_holder": "Harris Bookmaking Pty Ltd",
+      "url_text": "https://www.chasebet.com.au",
+      "urls": [
+        "https://www.chasebet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 109,
+      "classification": "registered_url",
+      "service_keys": [
+        "chasebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 72,
+      "trading_name_raw": "ChromaBet",
+      "license_holder": "G & T Mansour",
+      "url_text": "https://chromabet.com.au",
+      "urls": [
+        "https://chromabet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 101,
+      "classification": "registered_url",
+      "service_keys": [
+        "chromabet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 73,
+      "trading_name_raw": "Clearybet (telephone only)",
+      "license_holder": "ClearyBet Partnership",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 78,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 74,
+      "trading_name_raw": "ClubBet",
+      "license_holder": "ClubBet Pty Ltd",
+      "url_text": "https://clubbet.au",
+      "urls": [
+        "https://clubbet.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 79,
+      "classification": "registered_url",
+      "service_keys": [
+        "clubbet.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 75,
+      "trading_name_raw": "Colossalbet",
+      "license_holder": "Ryman, Mark",
+      "url_text": "https://www.colossalbet.com.au",
+      "urls": [
+        "https://www.colossalbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 176,
+      "classification": "registered_url",
+      "service_keys": [
+        "colossalbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 76,
+      "trading_name_raw": "CrownBet",
+      "license_holder": "Betfair Pty Ltd",
+      "url_text": "https://crownbet.com.au",
+      "urls": [
+        "https://crownbet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 32,
+      "classification": "registered_url",
+      "service_keys": [
+        "crownbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 77,
+      "trading_name_raw": "Dabble",
+      "license_holder": "Dabble Sports Pty Ltd",
+      "url_text": "https://www.dabble.com.au",
+      "urls": [
+        "https://www.dabble.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 86,
+      "classification": "registered_url",
+      "service_keys": [
+        "dabble.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 78,
+      "trading_name_raw": "Dafabet",
+      "license_holder": "BaggyBet Pty Ltd",
+      "url_text": "https://www.dafabet.com.au",
+      "urls": [
+        "https://www.dafabet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 15,
+      "classification": "registered_url",
+      "service_keys": [
+        "dafabet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 79,
+      "trading_name_raw": "Damien Joyce (telephone only)",
+      "license_holder": "Joyce, Damien James Behan",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 118,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 80,
+      "trading_name_raw": "DashBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://www.dashbet.com.au",
+      "urls": [
+        "https://www.dashbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 42,
+      "classification": "registered_url",
+      "service_keys": [
+        "dashbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 81,
+      "trading_name_raw": "DependaBet",
+      "license_holder": "Pendlebury Bookmaking Pty Limited",
+      "url_text": "https://www.dependabet.com.au",
+      "urls": [
+        "https://www.dependabet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 162,
+      "classification": "registered_url",
+      "service_keys": [
+        "dependabet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 82,
+      "trading_name_raw": "Donnie Bet",
+      "license_holder": "Mcgrath & Mcgrath",
+      "url_text": "https://donniebet.com.au",
+      "urls": [
+        "https://donniebet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 132,
+      "classification": "registered_url",
+      "service_keys": [
+        "donniebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 83,
+      "trading_name_raw": "Draftstars",
+      "license_holder": "Nextbet Pty Ltd",
+      "url_text": "https://www.playup.com.au/fantasy",
+      "urls": [
+        "https://www.playup.com.au/fantasy"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 154,
+      "classification": "registered_url",
+      "service_keys": [
+        "playup.com.au/fantasy"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 84,
+      "trading_name_raw": "EarlyCrow",
+      "license_holder": "Booki.com.au Pty Ltd",
+      "url_text": "https://earlycrow.bet",
+      "urls": [
+        "https://earlycrow.bet"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 67,
+      "classification": "registered_url",
+      "service_keys": [
+        "earlycrow.bet"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 85,
+      "trading_name_raw": "EliteBet",
+      "license_holder": "Paolini, Daniel",
+      "url_text": "https://www.elitebet.com.au",
+      "urls": [
+        "https://www.elitebet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 159,
+      "classification": "registered_url",
+      "service_keys": [
+        "elitebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 86,
+      "trading_name_raw": "Emanuel Seal (telephone only)",
+      "license_holder": "Seal, Emanuel",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "South Australia – Consumer and Business Services",
+      "export_row": 177,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 87,
+      "trading_name_raw": "EpicOdds",
+      "license_holder": "Vuka Global Pty Ltd",
+      "url_text": "http://epicodds.com.au",
+      "urls": [
+        "http://epicodds.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 204,
+      "classification": "registered_url",
+      "service_keys": [
+        "epicodds.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 88,
+      "trading_name_raw": "FalconBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://falconbet.com.au",
+      "urls": [
+        "https://falconbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 50,
+      "classification": "registered_url",
+      "service_keys": [
+        "falconbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 89,
+      "trading_name_raw": "FatBet",
+      "license_holder": "FatBet Pty Ltd",
+      "url_text": "https://www.fatbet.com.au",
+      "urls": [
+        "https://www.fatbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 95,
+      "classification": "registered_url",
+      "service_keys": [
+        "fatbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 90,
+      "trading_name_raw": "FireBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://firebet.com.au",
+      "urls": [
+        "https://firebet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 51,
+      "classification": "registered_url",
+      "service_keys": [
+        "firebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 91,
+      "trading_name_raw": "FR Watts & JT Herft (telephone only)",
+      "license_holder": "FR Watts & JT Herft",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 98,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 92,
+      "trading_name_raw": "Garry Clarke (telephone only)",
+      "license_holder": "Clarke, Garry",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 77,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 93,
+      "trading_name_raw": "GemBet",
+      "license_holder": "GemBet Pty Ltd",
+      "url_text": "https://gembet.com.au",
+      "urls": [
+        "https://gembet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 102,
+      "classification": "registered_url",
+      "service_keys": [
+        "gembet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 94,
+      "trading_name_raw": "GigaBet (not currently operational)",
+      "license_holder": "Viking Gaming Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 200,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 95,
+      "trading_name_raw": "GoldBet",
+      "license_holder": "Goldbet Pty Ltd",
+      "url_text": "https://www.goldbet.com.au",
+      "urls": [
+        "https://www.goldbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 105,
+      "classification": "registered_url",
+      "service_keys": [
+        "goldbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 96,
+      "trading_name_raw": "GoldenBet888",
+      "license_holder": "Fortuna Felicitas Pty Ltd",
+      "url_text": "https://goldenbet888.com.au",
+      "urls": [
+        "https://goldenbet888.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 97,
+      "classification": "registered_url",
+      "service_keys": [
+        "goldenbet888.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 97,
+      "trading_name_raw": "GRSBet",
+      "license_holder": "Crispe, Stephen",
+      "url_text": "https://www.grsbet.com.au",
+      "urls": [
+        "https://www.grsbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 82,
+      "classification": "registered_url",
+      "service_keys": [
+        "grsbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 98,
+      "trading_name_raw": "HAVABET",
+      "license_holder": "Havabet Pty Ltd",
+      "url_text": "https://www.havabet.com.au",
+      "urls": [
+        "https://www.havabet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 110,
+      "classification": "registered_url",
+      "service_keys": [
+        "havabet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 99,
+      "trading_name_raw": "HOT Bet",
+      "license_holder": "Deguara Bookmaking Pty Ltd",
+      "url_text": "https://www.hotbet.com.au",
+      "urls": [
+        "https://www.hotbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 87,
+      "classification": "registered_url",
+      "service_keys": [
+        "hotbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 100,
+      "trading_name_raw": "IceBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://icebet.com.au",
+      "urls": [
+        "https://icebet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 62,
+      "classification": "registered_url",
+      "service_keys": [
+        "icebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 101,
+      "trading_name_raw": "Infomarket",
+      "license_holder": "IRPSX Pty Ltd",
+      "url_text": "https://infomarket.com.au",
+      "urls": [
+        "https://infomarket.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 115,
+      "classification": "registered_url",
+      "service_keys": [
+        "infomarket.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 102,
+      "trading_name_raw": "Jason Lee Steadman (telephone only)",
+      "license_holder": "Steadman, Jason Lee",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "South Australia – Consumer and Business Services",
+      "export_row": 182,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 103,
+      "trading_name_raw": "Jimmy Bet",
+      "license_holder": "Jimmybet Partnership",
+      "url_text": "https://www.jimmybet.com.au",
+      "urls": [
+        "https://www.jimmybet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 117,
+      "classification": "registered_url",
+      "service_keys": [
+        "jimmybet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 104,
+      "trading_name_raw": "Johnny Grant Racing (telephone only)",
+      "license_holder": "Grant, John Edward",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 107,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 105,
+      "trading_name_raw": "JuicyBet",
+      "license_holder": "Juicybet Pty Ltd",
+      "url_text": "https://juicybet.com.au",
+      "urls": [
+        "https://juicybet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 119,
+      "classification": "registered_url",
+      "service_keys": [
+        "juicybet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 106,
+      "trading_name_raw": "Junglebet",
+      "license_holder": "Jungle Strategic Pty Ltd",
+      "url_text": "https://junglebet.com.au",
+      "urls": [
+        "https://junglebet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 120,
+      "classification": "registered_url",
+      "service_keys": [
+        "junglebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 107,
+      "trading_name_raw": "JustBet",
+      "license_holder": "Justbet Pty Ltd",
+      "url_text": "https://www.justbet.com.au",
+      "urls": [
+        "https://www.justbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 121,
+      "classification": "registered_url",
+      "service_keys": [
+        "justbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 108,
+      "trading_name_raw": "Knucklebet",
+      "license_holder": "Booki.com.au Pty Ltd",
+      "url_text": "https://knucklebet.com.au",
+      "urls": [
+        "https://knucklebet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 68,
+      "classification": "registered_url",
+      "service_keys": [
+        "knucklebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 109,
+      "trading_name_raw": "Ladbrokes",
+      "license_holder": "Entain Group Pty Ltd",
+      "url_text": "https://www.ladbrokes.com.au",
+      "urls": [
+        "https://www.ladbrokes.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 93,
+      "classification": "registered_url",
+      "service_keys": [
+        "ladbrokes.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 110,
+      "trading_name_raw": "LaserBet",
+      "license_holder": "LaserBet Pty Ltd",
+      "url_text": "https://www.laserbet.com.au",
+      "urls": [
+        "https://www.laserbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 125,
+      "classification": "registered_url",
+      "service_keys": [
+        "laserbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 111,
+      "trading_name_raw": "Let's Bet",
+      "license_holder": "Let's Bet Pty Ltd",
+      "url_text": "https://www.letsbet.net.au",
+      "urls": [
+        "https://www.letsbet.net.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 126,
+      "classification": "registered_url",
+      "service_keys": [
+        "letsbet.net.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 112,
+      "trading_name_raw": "LightningBet",
+      "license_holder": "Lynch, Grant",
+      "url_text": "https://www.lightningbet.com.au",
+      "urls": [
+        "https://www.lightningbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 127,
+      "classification": "registered_url",
+      "service_keys": [
+        "lightningbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 113,
+      "trading_name_raw": "Lyndon Cleary (telephone only)",
+      "license_holder": "Lyndon Cleary Partnership",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 128,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 114,
+      "trading_name_raw": "Lynn & Heaver (telephone only)",
+      "license_holder": "Lynn & Heaver Partnership",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 129,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 115,
+      "trading_name_raw": "MarantelliBet",
+      "license_holder": "MarantelliBet Partnership",
+      "url_text": "https://marantellibet.com",
+      "urls": [
+        "https://marantellibet.com"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 131,
+      "classification": "registered_url",
+      "service_keys": [
+        "marantellibet.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 116,
+      "trading_name_raw": "Mark Alati (telephone only)",
+      "license_holder": "Alati, Mark",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 1,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 117,
+      "trading_name_raw": "McBet",
+      "license_holder": "D McLauchlan & L McLauchlan Partnership",
+      "url_text": "https://mcbet.com.au",
+      "urls": [
+        "https://mcbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 84,
+      "classification": "registered_url",
+      "service_keys": [
+        "mcbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 118,
+      "trading_name_raw": "Mgmbet (not currently operational)",
+      "license_holder": "Winners Bookmaking Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 210,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 119,
+      "trading_name_raw": "Midasbet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://www.midasbet.com.au",
+      "urls": [
+        "https://www.midasbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 43,
+      "classification": "registered_url",
+      "service_keys": [
+        "midasbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 120,
+      "trading_name_raw": "MightyBet",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.mightybet.com.au",
+      "urls": [
+        "https://www.mightybet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 8,
+      "classification": "registered_url",
+      "service_keys": [
+        "mightybet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 121,
+      "trading_name_raw": "Millennial Bet",
+      "license_holder": "Pendlebury Bookmaking Pty Limited",
+      "url_text": "https://www.millennialbet.com.au",
+      "urls": [
+        "https://www.millennialbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 161,
+      "classification": "registered_url",
+      "service_keys": [
+        "millennialbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 122,
+      "trading_name_raw": "MintBet",
+      "license_holder": "Mintsports Pty Ltd",
+      "url_text": "https://www.mintbet.au",
+      "urls": [
+        "https://www.mintbet.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 144,
+      "classification": "registered_url",
+      "service_keys": [
+        "mintbet.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 123,
+      "trading_name_raw": "MoonBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://moonbet.com.au",
+      "urls": [
+        "https://moonbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 52,
+      "classification": "registered_url",
+      "service_keys": [
+        "moonbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 124,
+      "trading_name_raw": "Multis.com.au",
+      "license_holder": "Multis.com.au Pty Ltd",
+      "url_text": "https://www.multis.com.au",
+      "urls": [
+        "https://www.multis.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 148,
+      "classification": "registered_url",
+      "service_keys": [
+        "multis.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 125,
+      "trading_name_raw": "Murphy Racing (telephone only)",
+      "license_holder": "Murphy Racing Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 149,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 126,
+      "trading_name_raw": "MyBet (not currently operational)",
+      "license_holder": "MyBet Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 150,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 127,
+      "trading_name_raw": "MyBet",
+      "license_holder": "Mybet Pty Ltd",
+      "url_text": "https://www.mybet.com.au",
+      "urls": [
+        "https://www.mybet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 151,
+      "classification": "registered_url",
+      "service_keys": [
+        "mybet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 128,
+      "trading_name_raw": "Neds",
+      "license_holder": "Entain Group Pty Ltd",
+      "url_text": "https://www.neds.com.au",
+      "urls": [
+        "https://www.neds.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 94,
+      "classification": "registered_url",
+      "service_keys": [
+        "neds.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 129,
+      "trading_name_raw": "Next2Go",
+      "license_holder": "Zinger Bookmaking Pty Ltd",
+      "url_text": "https://next2go.com.au",
+      "urls": [
+        "https://next2go.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 217,
+      "classification": "registered_url",
+      "service_keys": [
+        "next2go.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 130,
+      "trading_name_raw": "Nextbet",
+      "license_holder": "Nextbet Pty Ltd",
+      "url_text": "https://www.nextbet.com.au",
+      "urls": [
+        "https://www.nextbet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 152,
+      "classification": "registered_url",
+      "service_keys": [
+        "nextbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 131,
+      "trading_name_raw": "Ninjabet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://www.ninjabet.com.au",
+      "urls": [
+        "https://www.ninjabet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 48,
+      "classification": "registered_url",
+      "service_keys": [
+        "ninjabet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 132,
+      "trading_name_raw": "Noisy",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.noisy.com.au",
+      "urls": [
+        "https://www.noisy.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 9,
+      "classification": "registered_url",
+      "service_keys": [
+        "noisy.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 133,
+      "trading_name_raw": "Oke Bet",
+      "license_holder": "Opie, Mark",
+      "url_text": "https://okebet.com.au",
+      "urls": [
+        "https://okebet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 157,
+      "classification": "registered_url",
+      "service_keys": [
+        "okebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 134,
+      "trading_name_raw": "OnlyBets",
+      "license_holder": "OnlyBetting Pty Ltd",
+      "url_text": "https://onlybets.com.au",
+      "urls": [
+        "https://onlybets.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 156,
+      "classification": "registered_url",
+      "service_keys": [
+        "onlybets.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 135,
+      "trading_name_raw": "Palmerbet",
+      "license_holder": "Palmer Bookmaking Pty Ltd",
+      "url_text": "https://www.palmerbet.com",
+      "urls": [
+        "https://www.palmerbet.com"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 158,
+      "classification": "registered_url",
+      "service_keys": [
+        "palmerbet.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 136,
+      "trading_name_raw": "Pandabet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://www.pandabet.com.au",
+      "urls": [
+        "https://www.pandabet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 44,
+      "classification": "registered_url",
+      "service_keys": [
+        "pandabet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 137,
+      "trading_name_raw": "Parlay888 pty ltd (telephone only)",
+      "license_holder": "Carl Schultz",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 75,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 138,
+      "trading_name_raw": "Pat Kynoch (telephone only)",
+      "license_holder": "Kynoch, Patrick David",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 123,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 139,
+      "trading_name_raw": "Pendlebury Bet",
+      "license_holder": "Pendlebury, Jeff",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 163,
+      "classification": "no_url",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 140,
+      "trading_name_raw": "Peter Laird (telephone only)",
+      "license_holder": "Laird, Peter Douglas",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 124,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 141,
+      "trading_name_raw": "Philip Diviny (telephone only)",
+      "license_holder": "Diviny, Philip",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 88,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 142,
+      "trading_name_raw": "Picklebet",
+      "license_holder": "Puntaa Pty Ltd",
+      "url_text": "https://picklebet.com",
+      "urls": [
+        "https://picklebet.com"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 168,
+      "classification": "registered_url",
+      "service_keys": [
+        "picklebet.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 143,
+      "trading_name_raw": "Picnicbet.com",
+      "license_holder": "Boncorp Holdings Pty Ltd",
+      "url_text": "https://picnicbet.com",
+      "urls": [
+        "https://picnicbet.com"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 63,
+      "classification": "registered_url",
+      "service_keys": [
+        "picnicbet.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 144,
+      "trading_name_raw": "Placeabet (telephone only)",
+      "license_holder": "Girke, Paul",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 104,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 145,
+      "trading_name_raw": "PlayUp",
+      "license_holder": "Nextbet Pty Ltd",
+      "url_text": "https://www.playup.com.au/betting",
+      "urls": [
+        "https://www.playup.com.au/betting"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 153,
+      "classification": "registered_url",
+      "service_keys": [
+        "playup.com.au/betting"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 146,
+      "trading_name_raw": "PlayWest",
+      "license_holder": "PlayWest Pty Limited",
+      "url_text": "https://playwestbet.com",
+      "urls": [
+        "https://playwestbet.com"
+      ],
+      "licensing_authority": "WA Department of Local Government, Industry Regulation and Safety",
+      "export_row": 166,
+      "classification": "registered_url",
+      "service_keys": [
+        "playwestbet.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 147,
+      "trading_name_raw": "PointsBet",
+      "license_holder": "Pointsbet Australia Pty Ltd",
+      "url_text": "https://pointsbet.com.au",
+      "urls": [
+        "https://pointsbet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 167,
+      "classification": "registered_url",
+      "service_keys": [
+        "pointsbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 148,
+      "trading_name_raw": "PonyBet",
+      "license_holder": "Booki.com.au Pty Ltd",
+      "url_text": "https://ponybet.com.au",
+      "urls": [
+        "https://ponybet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 65,
+      "classification": "registered_url",
+      "service_keys": [
+        "ponybet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 149,
+      "trading_name_raw": "Premiumbet",
+      "license_holder": "Hudson, Frank",
+      "url_text": "https://premiumbet.com.au",
+      "urls": [
+        "https://premiumbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 113,
+      "classification": "registered_url",
+      "service_keys": [
+        "premiumbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 150,
+      "trading_name_raw": "PulseBet",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.pulsebet.com.au",
+      "urls": [
+        "https://www.pulsebet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 10,
+      "classification": "registered_url",
+      "service_keys": [
+        "pulsebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 151,
+      "trading_name_raw": "Punt123.bet",
+      "license_holder": "Harrak, Michael",
+      "url_text": "https://punt123.bet",
+      "urls": [
+        "https://punt123.bet"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 108,
+      "classification": "registered_url",
+      "service_keys": [
+        "punt123.bet"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 152,
+      "trading_name_raw": "PuntGenie (not currently operational)",
+      "license_holder": "Sylvester, Jason",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 186,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 153,
+      "trading_name_raw": "Puntnow",
+      "license_holder": "Puntnow Pty Ltd",
+      "url_text": "https://www.puntnow.com.au",
+      "urls": [
+        "https://www.puntnow.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 169,
+      "classification": "registered_url",
+      "service_keys": [
+        "puntnow.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 154,
+      "trading_name_raw": "PuntSport",
+      "license_holder": "Winners Bookmaking Pty Ltd",
+      "url_text": "https://www.puntsport.com.au",
+      "urls": [
+        "https://www.puntsport.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 212,
+      "classification": "registered_url",
+      "service_keys": [
+        "puntsport.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 155,
+      "trading_name_raw": "PuntX",
+      "license_holder": "Zinger Bookmaking Pty Ltd",
+      "url_text": "https://puntx.com.au",
+      "urls": [
+        "https://puntx.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 218,
+      "classification": "registered_url",
+      "service_keys": [
+        "puntx.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 156,
+      "trading_name_raw": "PuntZone",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://www.puntzone.com.au",
+      "urls": [
+        "https://www.puntzone.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 45,
+      "classification": "registered_url",
+      "service_keys": [
+        "puntzone.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 157,
+      "trading_name_raw": "QuestBet",
+      "license_holder": "Questbet Pty Ltd",
+      "url_text": "https://questbet.com.au",
+      "urls": [
+        "https://questbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 170,
+      "classification": "registered_url",
+      "service_keys": [
+        "questbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 158,
+      "trading_name_raw": "Ramon Karangis (telephone only)",
+      "license_holder": "Karangis, Ramon",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 122,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 159,
+      "trading_name_raw": "Raymond Swannie (telephone only)",
+      "license_holder": "Swannie, Raymond",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 184,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 160,
+      "trading_name_raw": "Readybet",
+      "license_holder": "Readybet Partnership",
+      "url_text": "https://readybet.com.au",
+      "urls": [
+        "https://readybet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 172,
+      "classification": "registered_url",
+      "service_keys": [
+        "readybet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 161,
+      "trading_name_raw": "RealBookie",
+      "license_holder": "Realbookie.com.au Partnership",
+      "url_text": "https://realbookie.com.au",
+      "urls": [
+        "https://realbookie.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 173,
+      "classification": "registered_url",
+      "service_keys": [
+        "realbookie.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 162,
+      "trading_name_raw": "RedBet",
+      "license_holder": "G & N Oke Partnership",
+      "url_text": "https://www.redbet.com.au",
+      "urls": [
+        "https://www.redbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 100,
+      "classification": "registered_url",
+      "service_keys": [
+        "redbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 163,
+      "trading_name_raw": "Ripper Bet",
+      "license_holder": "Mintsports Pty Ltd",
+      "url_text": "https://www.ripperbet.au",
+      "urls": [
+        "https://www.ripperbet.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 146,
+      "classification": "registered_url",
+      "service_keys": [
+        "ripperbet.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 164,
+      "trading_name_raw": "RiverBet",
+      "license_holder": "RiverBet Partnership",
+      "url_text": "https://riverbet.com.au",
+      "urls": [
+        "https://riverbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 174,
+      "classification": "registered_url",
+      "service_keys": [
+        "riverbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 165,
+      "trading_name_raw": "Rob Waterhouse",
+      "license_holder": "Waterhouse, Robert",
+      "url_text": "https://robwaterhouse.com",
+      "urls": [
+        "https://robwaterhouse.com"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 206,
+      "classification": "registered_url",
+      "service_keys": [
+        "robwaterhouse.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 166,
+      "trading_name_raw": "Rooster Bet",
+      "license_holder": "Rooster Bet Pty Ltd",
+      "url_text": "https://www.roosterbet.com.au",
+      "urls": [
+        "https://www.roosterbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 175,
+      "classification": "registered_url",
+      "service_keys": [
+        "roosterbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 167,
+      "trading_name_raw": "RoyalBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://royalbet.com.au",
+      "urls": [
+        "https://royalbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 54,
+      "classification": "registered_url",
+      "service_keys": [
+        "royalbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 168,
+      "trading_name_raw": "RushBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://rushbet.com.au",
+      "urls": [
+        "https://rushbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 55,
+      "classification": "registered_url",
+      "service_keys": [
+        "rushbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 169,
+      "trading_name_raw": "Russell Collett (telephone only)",
+      "license_holder": "Collett, Russell",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "WA Department of Local Government, Industry Regulation and Safety",
+      "export_row": 81,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 170,
+      "trading_name_raw": "Russell Hess (telephone only)",
+      "license_holder": "Hess, Russell James",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 111,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 171,
+      "trading_name_raw": "Sandro D'Amore (telephone only)",
+      "license_holder": "D'Amore, Sandro",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 85,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 172,
+      "trading_name_raw": "Shane Filipek (telephone only)",
+      "license_holder": "Filipek Bookmaking Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 96,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 173,
+      "trading_name_raw": "SlamBet (not currently operational)",
+      "license_holder": "Viking Gaming Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 201,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 174,
+      "trading_name_raw": "SonicBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://sonicbet.com.au",
+      "urls": [
+        "https://sonicbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 59,
+      "classification": "registered_url",
+      "service_keys": [
+        "sonicbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 175,
+      "trading_name_raw": "SpicyBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://spicybet.com.au",
+      "urls": [
+        "https://spicybet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 61,
+      "classification": "registered_url",
+      "service_keys": [
+        "spicybet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 176,
+      "trading_name_raw": "Sportsbet",
+      "license_holder": "Sportsbet Pty Ltd",
+      "url_text": "https://www.sportsbet.com.au",
+      "urls": [
+        "https://www.sportsbet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 179,
+      "classification": "registered_url",
+      "service_keys": [
+        "sportsbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 177,
+      "trading_name_raw": "Sprintbet",
+      "license_holder": "Sprintbet Pty Ltd",
+      "url_text": "http://www.sprintbet.com.au",
+      "urls": [
+        "http://www.sprintbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 180,
+      "classification": "registered_url",
+      "service_keys": [
+        "sprintbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 178,
+      "trading_name_raw": "StableBet",
+      "license_holder": "VistaBet Pty Ltd",
+      "url_text": "https://stablebet.com.au",
+      "urls": [
+        "https://stablebet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 203,
+      "classification": "registered_url",
+      "service_keys": [
+        "stablebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 179,
+      "trading_name_raw": "Star Sports",
+      "license_holder": "Star Sports Australia Pty Ltd",
+      "url_text": "https://www.starsports.com.au",
+      "urls": [
+        "https://www.starsports.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 181,
+      "classification": "registered_url",
+      "service_keys": [
+        "starsports.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 180,
+      "trading_name_raw": "SteakBet",
+      "license_holder": "SteakBet Pty Ltd",
+      "url_text": "https://steakbet.com.au",
+      "urls": [
+        "https://steakbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 183,
+      "classification": "registered_url",
+      "service_keys": [
+        "steakbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 181,
+      "trading_name_raw": "Steve Mills Bookmaking (telephone only)",
+      "license_holder": "Mills, Stephen",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "WA Department of Local Government, Industry Regulation and Safety",
+      "export_row": 141,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 182,
+      "trading_name_raw": "StrikeBet",
+      "license_holder": "Betting Services Australia Pty Ltd",
+      "url_text": "https://strikebet.com.au",
+      "urls": [
+        "https://strikebet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 60,
+      "classification": "registered_url",
+      "service_keys": [
+        "strikebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 183,
+      "trading_name_raw": "Surge",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.surge.com.au",
+      "urls": [
+        "https://www.surge.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 11,
+      "classification": "registered_url",
+      "service_keys": [
+        "surge.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 184,
+      "trading_name_raw": "Swift Bet",
+      "license_holder": "Swift Bet Pty Ltd",
+      "url_text": "https://swiftbet.com.au",
+      "urls": [
+        "https://swiftbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 185,
+      "classification": "registered_url",
+      "service_keys": [
+        "swiftbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 185,
+      "trading_name_raw": "TAB (NT)",
+      "license_holder": "UBET NT Pty Ltd",
+      "url_text": "https://www.tab.com.au",
+      "urls": [
+        "https://www.tab.com.au"
+      ],
+      "licensing_authority": "NT Director-General of Licensing",
+      "export_row": 193,
+      "classification": "registered_url",
+      "service_keys": [
+        "tab.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 186,
+      "trading_name_raw": "TAB (QLD)",
+      "license_holder": "UBET QLD Limited",
+      "url_text": "https://www.tab.com.au",
+      "urls": [
+        "https://www.tab.com.au"
+      ],
+      "licensing_authority": "Queensland Office of Liquor & Gaming Regulation",
+      "export_row": 194,
+      "classification": "registered_url",
+      "service_keys": [
+        "tab.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 187,
+      "trading_name_raw": "TAB (SA)",
+      "license_holder": "UBET SA Pty Ltd",
+      "url_text": "https://www.tab.com.au",
+      "urls": [
+        "https://www.tab.com.au"
+      ],
+      "licensing_authority": "South Australia – Consumer and Business Services",
+      "export_row": 195,
+      "classification": "registered_url",
+      "service_keys": [
+        "tab.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 188,
+      "trading_name_raw": "TAB (TAS)",
+      "license_holder": "UBET Tas Pty Ltd",
+      "url_text": "https://www.tab.com.au",
+      "urls": [
+        "https://www.tab.com.au"
+      ],
+      "licensing_authority": "Tasmanian Liquor and Gaming Commission",
+      "export_row": 196,
+      "classification": "registered_url",
+      "service_keys": [
+        "tab.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 189,
+      "trading_name_raw": "TAB Limited",
+      "license_holder": "TAB Limited",
+      "url_text": "https://www.tab.com.au",
+      "urls": [
+        "https://www.tab.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 187,
+      "classification": "registered_url",
+      "service_keys": [
+        "tab.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 190,
+      "trading_name_raw": "Tabcorp ACT",
+      "license_holder": "Tabcorp ACT Pty Ltd",
+      "url_text": "https://www.tab.com.au",
+      "urls": [
+        "https://www.tab.com.au"
+      ],
+      "licensing_authority": "ACT Gambling & Racing Commission",
+      "export_row": 188,
+      "classification": "registered_url",
+      "service_keys": [
+        "tab.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 191,
+      "trading_name_raw": "Tabcorp Vic Pty Ltd",
+      "license_holder": "Tabcorp Vic Pty Ltd",
+      "url_text": "https://www.tab.com.au",
+      "urls": [
+        "https://www.tab.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 189,
+      "classification": "registered_url",
+      "service_keys": [
+        "tab.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 192,
+      "trading_name_raw": "TabTouch",
+      "license_holder": "Racing and Wagering Western Australia",
+      "url_text": "https://www.tabtouch.mobi",
+      "urls": [
+        "https://www.tabtouch.mobi"
+      ],
+      "licensing_authority": "WA Department of Local Government, Industry Regulation and Safety",
+      "export_row": 171,
+      "classification": "registered_url",
+      "service_keys": [
+        "tabtouch.mobi"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 193,
+      "trading_name_raw": "Teambet",
+      "license_holder": "Bet Focus Pty Ltd",
+      "url_text": "https://www.teambet.com.au",
+      "urls": [
+        "https://www.teambet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 20,
+      "classification": "registered_url",
+      "service_keys": [
+        "teambet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 194,
+      "trading_name_raw": "TechBet",
+      "license_holder": "Doherty, Leah-Jane",
+      "url_text": "https://www.techbet.com.au",
+      "urls": [
+        "https://www.techbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 89,
+      "classification": "registered_url",
+      "service_keys": [
+        "techbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 195,
+      "trading_name_raw": "TempleBet",
+      "license_holder": "McLauchlan, David",
+      "url_text": "https://templebet.com.au",
+      "urls": [
+        "https://templebet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 133,
+      "classification": "registered_url",
+      "service_keys": [
+        "templebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 196,
+      "trading_name_raw": "Terrybet",
+      "license_holder": "Coelli, Terrence",
+      "url_text": "https://terrybet.com.au",
+      "urls": [
+        "https://terrybet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 80,
+      "classification": "registered_url",
+      "service_keys": [
+        "terrybet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 197,
+      "trading_name_raw": "Titanbet",
+      "license_holder": "TitanBet Pty Ltd",
+      "url_text": "https://titanbet.com.au",
+      "urls": [
+        "https://titanbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 190,
+      "classification": "registered_url",
+      "service_keys": [
+        "titanbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 198,
+      "trading_name_raw": "Topbet",
+      "license_holder": "Betsmarter Group Pty Ltd",
+      "url_text": "https://www.topbet.au",
+      "urls": [
+        "https://www.topbet.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 41,
+      "classification": "registered_url",
+      "service_keys": [
+        "topbet.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 199,
+      "trading_name_raw": "TopSport (not currently operational)",
+      "license_holder": "Merlehan Bookmaking Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 135,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 200,
+      "trading_name_raw": "TradieBET",
+      "license_holder": "Bonus Kingdom Pty Ltd",
+      "url_text": "https://www.tradie.bet",
+      "urls": [
+        "https://www.tradie.bet"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 64,
+      "classification": "registered_url",
+      "service_keys": [
+        "tradie.bet"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 201,
+      "trading_name_raw": "TrueBet",
+      "license_holder": "Truebet Pty Ltd",
+      "url_text": "https://www.truebet.com.au",
+      "urls": [
+        "https://www.truebet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 192,
+      "classification": "registered_url",
+      "service_keys": [
+        "truebet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 202,
+      "trading_name_raw": "UltraBet",
+      "license_holder": "UltraBet Pty Ltd",
+      "url_text": "https://www.ultrabet.com.au",
+      "urls": [
+        "https://www.ultrabet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 197,
+      "classification": "registered_url",
+      "service_keys": [
+        "ultrabet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 203,
+      "trading_name_raw": "Unibet",
+      "license_holder": "Betchoice Corporation Pty Ltd",
+      "url_text": "https://www.unibet.com.au",
+      "urls": [
+        "https://www.unibet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 29,
+      "classification": "registered_url",
+      "service_keys": [
+        "unibet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 204,
+      "trading_name_raw": "UPCOZ",
+      "license_holder": "UPCOZ Pty Ltd",
+      "url_text": "https://upcoz.com",
+      "urls": [
+        "https://upcoz.com"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 198,
+      "classification": "registered_url",
+      "service_keys": [
+        "upcoz.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 205,
+      "trading_name_raw": "UpYaGo",
+      "license_holder": "Zinger Bookmaking Pty Ltd",
+      "url_text": "https://upyago.com.au",
+      "urls": [
+        "https://upyago.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 219,
+      "classification": "registered_url",
+      "service_keys": [
+        "upyago.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 206,
+      "trading_name_raw": "VicBet",
+      "license_holder": "Vicbet Partnership",
+      "url_text": "https://www.vicbet.com",
+      "urls": [
+        "https://www.vicbet.com"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 199,
+      "classification": "registered_url",
+      "service_keys": [
+        "vicbet.com"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 207,
+      "trading_name_raw": "VikingBet (not currently operational)",
+      "license_holder": "Viking Gaming Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 202,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 208,
+      "trading_name_raw": "Vincent Thomas Moriarty (telephone only)",
+      "license_holder": "Moriarty, Vincent Thomas",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "South Australia – Consumer and Business Services",
+      "export_row": 147,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 209,
+      "trading_name_raw": "VIP Betting Services (not currently operational)",
+      "license_holder": "Single, Stephen",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 178,
+      "classification": "non_operational",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 210,
+      "trading_name_raw": "Wannabet",
+      "license_holder": "Phillips, Eric Roger",
+      "url_text": "https://wannabet.com.au",
+      "urls": [
+        "https://wannabet.com.au"
+      ],
+      "licensing_authority": "Queensland Racing Integrity Commission",
+      "export_row": 164,
+      "classification": "registered_url",
+      "service_keys": [
+        "wannabet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 211,
+      "trading_name_raw": "Wellbet",
+      "license_holder": "Wellbet Pty Ltd",
+      "url_text": "https://wellbet.com.au",
+      "urls": [
+        "https://wellbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 208,
+      "classification": "registered_url",
+      "service_keys": [
+        "wellbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 212,
+      "trading_name_raw": "Winners",
+      "license_holder": "Winners Bookmaking Pty Ltd",
+      "url_text": "https://www.winners.com.au",
+      "urls": [
+        "https://www.winners.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 211,
+      "classification": "registered_url",
+      "service_keys": [
+        "winners.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 213,
+      "trading_name_raw": "WinnersBet",
+      "license_holder": "Winnersbet Pty Ltd",
+      "url_text": "https://www.winnersbet.com.au",
+      "urls": [
+        "https://www.winnersbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 214,
+      "classification": "registered_url",
+      "service_keys": [
+        "winnersbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 214,
+      "trading_name_raw": "Wishbet",
+      "license_holder": "J.S Walsh, J.D Walsh, M.J O'toole & P.W Jones",
+      "url_text": "https://wishbet.com.au",
+      "urls": [
+        "https://wishbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 116,
+      "classification": "registered_url",
+      "service_keys": [
+        "wishbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 215,
+      "trading_name_raw": "WizBet",
+      "license_holder": "Wizbet Pty Ltd",
+      "url_text": "https://www.wizbet.com.au",
+      "urls": [
+        "https://www.wizbet.com.au"
+      ],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 215,
+      "classification": "registered_url",
+      "service_keys": [
+        "wizbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 216,
+      "trading_name_raw": "Woodcock Racing (telephone only)",
+      "license_holder": "Woodcock Racing Pty Ltd",
+      "url_text": "No current URL",
+      "urls": [],
+      "licensing_authority": "Victorian Gambling and Casino Control Commission",
+      "export_row": 216,
+      "classification": "telephone_only",
+      "service_keys": [],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 217,
+      "trading_name_raw": "XBet",
+      "license_holder": "Millett, Carl",
+      "url_text": "https://www.xbet.net.au",
+      "urls": [
+        "https://www.xbet.net.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 140,
+      "classification": "registered_url",
+      "service_keys": [
+        "xbet.net.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 218,
+      "trading_name_raw": "Xcelbet",
+      "license_holder": "Dwyer, David Darcy",
+      "url_text": "https://www.xcelbet.com.au",
+      "urls": [
+        "https://www.xcelbet.com.au"
+      ],
+      "licensing_authority": "Liquor & Gaming NSW",
+      "export_row": 91,
+      "classification": "registered_url",
+      "service_keys": [
+        "xcelbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    },
+    {
+      "source_row": 219,
+      "trading_name_raw": "YesBet",
+      "license_holder": "Amused Australia Pty Ltd",
+      "url_text": "https://www.yesbet.com.au",
+      "urls": [
+        "https://www.yesbet.com.au"
+      ],
+      "licensing_authority": "Northern Territory Racing and Wagering Commission",
+      "export_row": 12,
+      "classification": "registered_url",
+      "service_keys": [
+        "yesbet.com.au"
+      ],
+      "source_url": "https://www.acma.gov.au/check-if-gambling-operator-legal",
+      "retrieved_at_utc": "2026-09-29T10:09:45.223763+00:00"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "currency": "AUD",
+  "capital_per_candidate": 1000,
+  "default_paper_venue_balance": 1000,
+  "paper_venue_balances": {},
+  "assumed_min_stake": 1,
+  "fixed_cost_per_candidate": 1,
+  "other_fee_per_leg": 0,
+  "minimum_net_profit": 1,
+  "minimum_roi": 0.005,
+  "max_quote_age_seconds": 20,
+  "max_snapshot_age_seconds": 30,
+  "max_quote_skew_seconds": 10,
+  "start_buffer_seconds": 60,
+  "licence_review_days": 30,
+  "max_combinations_per_market": 100000,
+  "max_delay_capture_gap_seconds": 1,
+  "delay_seconds": [
+    2,
+    5,
+    15,
+    30
+  ],
+  "adverse_decimal_odds_moves": [
+    0,
+    0.01,
+    0.05
+  ],
+  "hedge_fill_fractions": [
+    0,
+    0.5,
+    1
+  ],
+  "operators": {
+    "alpha": {
+      "title": "Synthetic bookmaker Alpha",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "synthetic test only"
+    },
+    "beta": {
+      "title": "Synthetic bookmaker Beta",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "synthetic test only"
+    },
+    "gamma": {
+      "title": "Synthetic bookmaker Gamma",
+      "licensed": true,
+      "type": "bookmaker",
+      "source": "synthetic test only"
+    },
+    "exchange": {
+      "title": "Synthetic exchange",
+      "licensed": true,
+      "type": "exchange",
+      "source": "synthetic test only"
+    }
+  },
+  "exchange_commissions": {
+    "rugbyleague_nrl": {
+      "rate": 0.1,
+      "verified": false,
+      "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+      "basis": "Public standard rate baseline; exact account charges unverified"
+    },
+    "aussierules_afl": {
+      "rate": 0.06,
+      "verified": false,
+      "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+      "basis": "Public standard rate baseline; exact account charges unverified"
+    },
+    "basketball_nba": {
+      "rate": 0.06,
+      "verified": false,
+      "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+      "basis": "Public standard rate baseline; exact account charges unverified"
+    },
+    "soccer_epl": {
+      "rate": 0.06,
+      "verified": false,
+      "source": "https://www.betfair.com.au/hub/help/commissions-charges/",
+      "basis": "Public standard rate baseline; exact account charges unverified"
+    }
+  },
+  "settlement_profiles": {
+    "demo": {
+      "verified": true,
+      "synthetic": true,
+      "signature": {
+        "period": "full match",
+        "overtime": "included for two-way; not applicable for three-way fixture",
+        "draw": "enumerated if applicable",
+        "push": "not applicable",
+        "retirement": "fixture: all bets void",
+        "postponement": "fixture: all bets void",
+        "dead_heat": "not applicable",
+        "void_policy": "fixture: identical"
+      },
+      "evidence_by_bookmaker": {
+        "alpha": "synthetic fixture",
+        "beta": "synthetic fixture",
+        "gamma": "synthetic fixture",
+        "exchange": "synthetic fixture"
+      }
+    }
+  },
+  "market_rule_assignments": {},
+  "event_market_manifests": {},
+  "observed_limits": {},
+  "notes": [
+    "SYNTHETIC VALIDATION ONLY. Invented prices, limits and identical rules; no operator offer or licence is implied.",
+    "AUD 1 allocated cost; AUD 1,000 total capital per comparison."
+  ]
+}
